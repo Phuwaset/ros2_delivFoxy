@@ -1,20 +1,29 @@
 Getting Started
+
 Simulation
+
 mkdir dev_ws
+
 cd dev_ws
+
 mkdir src
+
 cd src
+
 git clone https://github.com/Phuwaset/articubot_one.git
 
 cd ../..
 
 colcon build --symlink-install
+
 source install/setup.bash
 
 ros2 launch articubot_one launch_sim.launch.py use_sim_time:=True world:=./src/articubot_one/worlds/obstacles_last.world 
+
 #Open Gazebo 
 
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=src/articubot_one/map/map.yaml 
+
 Rviz2
 
 
