@@ -1,32 +1,67 @@
-#Getting Started
+# Getting Started -- Ros 2 Humble
 
-Simulation
 
-mkdir dev_ws
+![Logo](https://www.therobotreport.com/wp-content/uploads/2022/05/ros-humble-hawksbill-featured.jpg)
 
-cd dev_ws
 
-mkdir src
+## 🚀 About Me
+I'm a student...
 
-cd src
+## make workspace
 
+To run tests, run the following command
+
+```bash
+ mkdir dev_ws/src
+```
+
+##  following command
+
+To run tests, 
+
+```bash
+cd dev_ws/src
+```
+
+##  Clone git
+
+To run tests, 
+
+```bash
 git clone https://github.com/Phuwaset/articubot_one.git
 
-cd ../..
+```
+## Build workspace
 
+To run tests, 
+
+```bash
+cd ../..
 colcon build --symlink-install
 
+```
+
+```bash
 source install/setup.bash
 
+```
+
+
+## launch
+
+launch Gazebo world
+
+```bash
 ros2 launch articubot_one launch_sim.launch.py use_sim_time:=True world:=./src/articubot_one/worlds/obstacles_last.world 
+```
 
-#Open Gazebo 
 
+launch Rviz2 
+```bash
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=src/articubot_one/map/map.yaml 
+```
 
-Rviz2
-
-
+# Ros2 navigation use_sim_time:=True
 
 It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_bot` to whatever your project's name is.
 
