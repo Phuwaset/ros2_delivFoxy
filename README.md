@@ -12,7 +12,7 @@ I'm a student...
 To run tests, run the following command
 
 ```bash
- mkdir dev_ws/src
+ mkdir -p ~/dev_ws/src
 ```
 
 ##  following command
