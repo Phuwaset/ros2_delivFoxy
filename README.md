@@ -1,7 +1,5 @@
-# Getting Started -- Ros 2 Humble
+# Getting Started -- Ros 2 Foxy
 
-
-![Logo](https://www.therobotreport.com/wp-content/uploads/2022/05/ros-humble-hawksbill-featured.jpg)
 
 
 ## 🚀 About Me
