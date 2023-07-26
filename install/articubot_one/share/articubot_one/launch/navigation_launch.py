@@ -1,0 +1,1 @@
+/home/phufoxy/ros2_FxDeliver/src/articubot_one/launch/navigation_launch.py

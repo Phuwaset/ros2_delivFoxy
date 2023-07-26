@@ -1,0 +1,18 @@
+[0.535s] Invoking command in '/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo': PYTHONPATH=/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo/prefix_override:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/phufoxy/ros2_FxDeliver/build/serial_motor_demo/build --no-deps install_data
+[0.734s] running develop
+[0.854s] running egg_info
+[0.855s] writing serial_motor_demo.egg-info/PKG-INFO
+[0.855s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[0.855s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[0.855s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[0.855s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[0.881s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.882s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.911s] running build_ext
+[0.911s] Creating /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[0.911s] Installing driver script to /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/serial_motor_demo
+[0.912s] Installing gui script to /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/serial_motor_demo
+[0.912s] 
+[0.912s] Installed /home/phufoxy/ros2_FxDeliver/build/serial_motor_demo
+[0.912s] running install_data
+[0.934s] Invoked command in '/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo' returned '0': PYTHONPATH=/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo/prefix_override:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/phufoxy/ros2_FxDeliver/build/serial_motor_demo/build --no-deps install_data

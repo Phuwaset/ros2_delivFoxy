@@ -1,0 +1,26 @@
+[0.553s] Invoking command in '/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo': PYTHONPATH=/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo/prefix_override:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/phufoxy/ros2_FxDeliver/build/serial_motor_demo/build --no-deps install_data
+[0.756s] running develop
+[0.877s] running egg_info
+[0.877s] creating serial_motor_demo.egg-info
+[0.877s] writing serial_motor_demo.egg-info/PKG-INFO
+[0.877s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[0.878s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[0.878s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[0.878s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[0.879s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.912s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.912s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.942s] running build_ext
+[0.942s] Creating /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages/site.py
+[0.944s] Creating /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[0.944s] Installing driver script to /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/serial_motor_demo
+[0.945s] Installing gui script to /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/serial_motor_demo
+[0.945s] 
+[0.945s] Installed /home/phufoxy/ros2_FxDeliver/build/serial_motor_demo
+[0.945s] running install_data
+[0.945s] creating /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/share/ament_index
+[0.945s] creating /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/share/ament_index/resource_index
+[0.945s] creating /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.946s] copying resource/serial_motor_demo -> /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.946s] copying package.xml -> /home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/share/serial_motor_demo
+[0.967s] Invoked command in '/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo' returned '0': PYTHONPATH=/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo/prefix_override:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/phufoxy/ros2_FxDeliver/build/serial_motor_demo:/home/phufoxy/ros2_FxDeliver/install/serial_motor_demo/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/phufoxy/ros2_FxDeliver/build/serial_motor_demo/build --no-deps install_data
