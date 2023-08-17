@@ -1,0 +1,998 @@
+[0.000000] (-) TimerEvent: {}
+[0.003919] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.004660] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.005926] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.007706] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.007925] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.008085] (ydlidar_sdk) JobQueued: {'identifier': 'ydlidar_sdk', 'dependencies': OrderedDict()}
+[0.008214] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict([('serial', '/home/ubuntu/ros2_delivFoxy/install/serial')])}
+[0.008364] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs')])}
+[0.011517] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping')])}
+[0.013221] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.094511] (serial) JobStarted: {'identifier': 'serial'}
+[0.101783] (-) TimerEvent: {}
+[0.155311] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.202375] (-) TimerEvent: {}
+[0.217806] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.284676] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.291987] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[0.295047] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.302678] (-) TimerEvent: {}
+[0.330616] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.338834] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.343126] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_delivFoxy/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.360749] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[0.369744] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[0.374532] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.405440] (-) TimerEvent: {}
+[0.413423] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.431620] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[0.432625] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_delivFoxy/build/articubot_one', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.505751] (-) TimerEvent: {}
+[0.606852] (-) TimerEvent: {}
+[0.707885] (-) TimerEvent: {}
+[0.809180] (-) TimerEvent: {}
+[0.897461] (articubot_one) CommandEnded: {'returncode': 0}
+[0.927107] (-) TimerEvent: {}
+[1.028310] (-) TimerEvent: {}
+[1.086367] (serial) StdoutLine: {'line': b'[ 28%] Built target serial\n'}
+[1.114203] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] Built target sensor_base\n'}
+[1.125872] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] Built target utils\n'}
+[1.128524] (-) TimerEvent: {}
+[1.147032] (serial) StdoutLine: {'line': b'[ 42%] Built target gtest\n'}
+[1.187062] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] Built target serial_motor_demo_msgs__cpp\n'}
+[1.228751] (-) TimerEvent: {}
+[1.256490] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[1.329245] (-) TimerEvent: {}
+[1.353425] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[1.389400] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] Built target sensor_odometry\n'}
+[1.429447] (-) TimerEvent: {}
+[1.431042] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[1.480606] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_range\n'}
+[1.490875] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_delivFoxy/build/articubot_one'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/articubot_one'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[1.537352] (-) TimerEvent: {}
+[1.553690] (serial) StdoutLine: {'line': b'[ 71%] Built target serial_example\n'}
+[1.599363] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[1.635396] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.637646] (-) TimerEvent: {}
+[1.656621] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.659399] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.675390] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[1.678254] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[1.680989] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[1.683592] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[1.686397] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[1.689070] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[1.697992] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[1.701580] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[1.707948] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[1.711088] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[1.713988] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[1.716947] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[1.719696] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[1.722619] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[1.727275] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[1.730405] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[1.733189] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[1.736447] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[1.737878] (-) TimerEvent: {}
+[1.740891] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[1.743388] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[1.746654] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[1.750641] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[1.754082] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[1.758452] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[1.761541] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[1.764531] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[1.766138] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[1.769354] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[1.771773] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[1.774008] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[1.776230] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[1.779104] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[1.781824] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[1.784462] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[1.787698] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[1.790001] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[1.793540] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[1.799862] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[1.803218] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[1.806558] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[1.808512] (serial) StdoutLine: {'line': b'[ 85%] Built target serial-test-timer\n'}
+[1.811609] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[1.814872] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[1.817918] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[1.820890] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[1.824470] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[1.827647] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[1.830367] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.dsv\n'}
+[1.838077] (-) TimerEvent: {}
+[1.857368] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[1.885501] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[1.900962] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[1.921119] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[1.923972] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[1.926527] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[1.929258] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.xml\n'}
+[1.938332] (-) TimerEvent: {}
+[1.945610] (articubot_one) CommandEnded: {'returncode': 0}
+[1.973966] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[2.045216] (-) TimerEvent: {}
+[2.153391] (-) TimerEvent: {}
+[2.345108] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.346457] (-) TimerEvent: {}
+[2.447702] (-) TimerEvent: {}
+[2.548742] (-) TimerEvent: {}
+[2.651510] (-) TimerEvent: {}
+[2.752835] (-) TimerEvent: {}
+[2.854220] (-) TimerEvent: {}
+[2.955556] (-) TimerEvent: {}
+[3.056734] (-) TimerEvent: {}
+[3.158031] (-) TimerEvent: {}
+[3.259205] (-) TimerEvent: {}
+[3.360470] (-) TimerEvent: {}
+[3.461460] (-) TimerEvent: {}
+[3.562736] (-) TimerEvent: {}
+[3.663712] (-) TimerEvent: {}
+[3.770127] (-) TimerEvent: {}
+[3.808588] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[3.842130] (serial) CommandEnded: {'returncode': 0}
+[3.873662] (-) TimerEvent: {}
+[3.980112] (-) TimerEvent: {}
+[4.057267] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[4.061471] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[4.083142] (-) TimerEvent: {}
+[4.092730] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.130892] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[4.132667] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[4.164366] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[4.173438] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[4.175426] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[4.187456] (-) TimerEvent: {}
+[4.213626] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.217608] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[4.219239] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_delivFoxy/build/serial'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[4.243335] (openslam_gmapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.247039] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[4.247637] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[4.248254] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[4.248860] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[4.251659] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[4.254042] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[4.258205] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[4.262477] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[4.270492] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[4.273798] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[4.277246] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libutils.a\n'}
+[4.279131] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[4.280805] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[4.282641] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[4.284356] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[4.287459] (-) TimerEvent: {}
+[4.293175] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[4.295226] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[4.297452] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[4.300296] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[4.306170] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[4.309747] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[4.328219] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[4.332175] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.334002] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[4.337678] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[4.342297] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[4.344110] (serial) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.347465] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[4.350418] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[4.353410] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/lib/libserial.a\n'}
+[4.355749] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[4.356982] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/include/serial/serial.h\n'}
+[4.361109] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[4.362992] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/include/serial/v8stdint.h\n'}
+[4.367343] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[4.369420] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/library_path.sh\n'}
+[4.372294] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[4.375919] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[4.377884] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/library_path.dsv\n'}
+[4.380316] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[4.382449] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[4.384478] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[4.387802] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[4.389288] (-) TimerEvent: {}
+[4.394344] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[4.401455] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[4.404577] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[4.406479] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[4.409762] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[4.412445] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[4.417192] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[4.421303] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/path.sh\n'}
+[4.425817] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[4.430704] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/path.dsv\n'}
+[4.432536] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[4.435751] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[4.442696] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.bash\n'}
+[4.443478] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[4.453771] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[4.455023] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.sh\n'}
+[4.458564] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.zsh\n'}
+[4.459268] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[4.459908] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[4.467972] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[4.468941] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.dsv\n'}
+[4.469750] (serial) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.dsv\n'}
+[4.470889] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[4.471578] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[4.472181] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[4.473671] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[4.489182] (-) TimerEvent: {}
+[4.532002] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[4.538390] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.543671] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.552464] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[4.565513] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[4.566354] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[4.570264] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.575395] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.587222] (serial) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.xml\n'}
+[4.589409] (-) TimerEvent: {}
+[4.597323] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[4.599172] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[4.613281] (serial) CommandEnded: {'returncode': 0}
+[4.617898] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[4.618989] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[4.694810] (-) TimerEvent: {}
+[4.759536] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[4.795775] (-) TimerEvent: {}
+[4.866012] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 87%] Built target serial_motor_demo_msgs__python\n'}
+[4.897160] (-) TimerEvent: {}
+[4.940508] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[4.997376] (-) TimerEvent: {}
+[5.097291] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.098021] (-) TimerEvent: {}
+[5.201442] (-) TimerEvent: {}
+[5.265162] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[5.269930] (ydlidar_sdk) JobStarted: {'identifier': 'ydlidar_sdk'}
+[5.280836] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[5.301723] (-) TimerEvent: {}
+[5.366960] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext\n'}
+[5.405348] (-) TimerEvent: {}
+[5.423902] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[5.431316] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[5.490782] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[5.505775] (-) TimerEvent: {}
+[5.512853] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'cmake'}
+[5.520732] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'build'}
+[5.522880] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs')]), 'shell': False}
+[5.563900] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[5.566593] (serial_motor_demo_msgs) StdoutLine: {'line': b'[100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.575365] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[5.585381] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[5.608780] (-) TimerEvent: {}
+[5.684598] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[5.712665] (-) TimerEvent: {}
+[5.813792] (-) TimerEvent: {}
+[5.915088] (-) TimerEvent: {}
+[5.984084] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[6.002146] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[6.016389] (-) TimerEvent: {}
+[6.078533] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.083331] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.093372] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[6.099561] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[6.104217] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target fake_robot\x1b[0m\n'}
+[6.112581] (ydlidar_sdk) StdoutLine: {'line': b'[ 60%] Built target ydlidar_sdk\n'}
+[6.114167] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch.cpython-36.pyc\n'}
+[6.116585] (-) TimerEvent: {}
+[6.118387] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch_view.cpython-36.pyc\n'}
+[6.124106] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[6.126201] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[6.128880] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_view_launch.py\n'}
+[6.137388] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[6.149443] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[6.154128] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[6.162352] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[6.166042] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[6.183240] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[6.197334] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[6.205669] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[6.214354] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[6.220948] (-) TimerEvent: {}
+[6.226240] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[6.238267] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[6.244652] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[6.253595] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[6.256081] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[6.321202] (-) TimerEvent: {}
+[6.325487] (ydlidar_sdk) StdoutLine: {'line': b'[ 68%] Built target ydlidar_test\n'}
+[6.332593] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[6.335426] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[6.338161] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[6.340951] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[6.352776] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[6.423278] (-) TimerEvent: {}
+[6.523555] (diffdrive_arduino) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o\x1b[0m\n'}
+[6.524536] (-) TimerEvent: {}
+[6.596287] (ydlidar_sdk) StdoutLine: {'line': b'[ 76%] Built target etlidar_test\n'}
+[6.624766] (-) TimerEvent: {}
+[6.725784] (-) TimerEvent: {}
+[6.812041] (ydlidar_sdk) StdoutLine: {'line': b'[ 84%] Built target lidar_test\n'}
+[6.826370] (-) TimerEvent: {}
+[6.899706] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[6.905418] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[6.929607] (-) TimerEvent: {}
+[6.984009] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'install'}
+[6.991832] (ydlidar_sdk) StdoutLine: {'line': b'[ 92%] Built target lidar_c_api_test\n'}
+[6.992894] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[7.016248] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[7.024031] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[7.028464] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[7.032558] (-) TimerEvent: {}
+[7.101604] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.132829] (-) TimerEvent: {}
+[7.135652] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.139604] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs\n'}
+[7.148524] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h\n'}
+[7.154392] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h\n'}
+[7.157398] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h\n'}
+[7.162722] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h\n'}
+[7.171609] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h\n'}
+[7.174883] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h\n'}
+[7.177961] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h\n'}
+[7.182527] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h\n'}
+[7.186584] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h\n'}
+[7.192584] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h\n'}
+[7.199039] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h\n'}
+[7.210130] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h\n'}
+[7.222238] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.223484] (ydlidar_sdk) StdoutLine: {'line': b'[100%] Built target tof_test\n'}
+[7.224349] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh\n'}
+[7.234895] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv\n'}
+[7.235675] (-) TimerEvent: {}
+[7.242824] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h\n'}
+[7.245869] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h\n'}
+[7.248302] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h\n'}
+[7.252691] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.257839] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.269387] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.273804] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.276549] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.278929] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.289243] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.304119] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h\n'}
+[7.311217] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h\n'}
+[7.321642] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h\n'}
+[7.328849] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.336058] (-) TimerEvent: {}
+[7.338251] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[7.344472] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp\n'}
+[7.351635] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp\n'}
+[7.352837] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp\n'}
+[7.355501] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp\n'}
+[7.362598] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp\n'}
+[7.366103] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp\n'}
+[7.372127] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp\n'}
+[7.376048] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp\n'}
+[7.380636] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp\n'}
+[7.385111] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp\n'}
+[7.389984] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp\n'}
+[7.394723] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp\n'}
+[7.399210] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp\n'}
+[7.402227] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp\n'}
+[7.404694] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp\n'}
+[7.408440] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.414629] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.424562] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.425475] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.428431] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh\n'}
+[7.439804] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv\n'}
+[7.440620] (-) TimerEvent: {}
+[7.448206] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py\n'}
+[7.449125] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py\n'}
+[7.450045] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py\n'}
+[7.459941] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py\n'}
+[7.464671] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py\n'}
+[7.469153] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.475977] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.481615] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[7.487492] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so\n'}
+[7.491780] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl\n'}
+[7.494491] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl\n'}
+[7.497296] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl\n'}
+[7.500103] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg\n'}
+[7.503719] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg\n'}
+[7.506469] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg\n'}
+[7.508669] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs\n'}
+[7.512946] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs\n'}
+[7.515836] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh\n'}
+[7.519630] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv\n'}
+[7.524995] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh\n'}
+[7.531416] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv\n'}
+[7.536237] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash\n'}
+[7.540697] (-) TimerEvent: {}
+[7.549193] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh\n'}
+[7.561637] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh\n'}
+[7.562427] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv\n'}
+[7.562909] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv\n'}
+[7.640995] (-) TimerEvent: {}
+[7.644068] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs\n'}
+[7.651196] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.670408] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.675618] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.680942] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.686692] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.692803] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.700589] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.708210] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake\n'}
+[7.710956] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake\n'}
+[7.713319] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml\n'}
+[7.717664] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so\n'}
+[7.725495] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.726391] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so\n'}
+[7.733368] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.741138] (-) TimerEvent: {}
+[7.742030] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so\n'}
+[7.841311] (-) TimerEvent: {}
+[7.853482] (slam_gmapping) StdoutLine: {'line': b'[ 50%] Built target transform\n'}
+[7.941668] (-) TimerEvent: {}
+[8.016158] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake\n'}
+[8.017412] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.018578] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.019279] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.022812] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.023820] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.026740] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.030150] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.033098] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.035322] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.037478] (serial_motor_demo_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.041862] (-) TimerEvent: {}
+[8.057642] (serial_motor_demo_msgs) CommandEnded: {'returncode': 0}
+[8.142420] (-) TimerEvent: {}
+[8.177537] (slam_gmapping) StdoutLine: {'line': b'[100%] Built target slam_gmapping\n'}
+[8.249879] (slam_gmapping) CommandEnded: {'returncode': 0}
+[8.259912] (-) TimerEvent: {}
+[8.302734] (ydlidar_sdk) JobProgress: {'identifier': 'ydlidar_sdk', 'progress': 'install'}
+[8.304238] (ydlidar_sdk) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs')]), 'shell': False}
+[8.360335] (-) TimerEvent: {}
+[8.374348] (ydlidar_sdk) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.376136] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/base/datatype.h\n'}
+[8.378201] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/base/locker.h\n'}
+[8.380276] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/base/thread.h\n'}
+[8.383130] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/base/timer.h\n'}
+[8.384859] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/base/typedef.h\n'}
+[8.390186] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/base/utils.h\n'}
+[8.392355] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/base/v8stdint.h\n'}
+[8.393201] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/base/ydlidar.h\n'}
+[8.398509] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/common/ChannelDevice.h\n'}
+[8.399240] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/common/DriverInterface.h\n'}
+[8.399911] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/common/ydlidar_datatype.h\n'}
+[8.400604] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/common/ydlidar_def.h\n'}
+[8.401372] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/common/ydlidar_help.h\n'}
+[8.401996] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/common/ydlidar_protocol.h\n'}
+[8.404006] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/math/angles.h\n'}
+[8.404916] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/network/ActiveSocket.h\n'}
+[8.405827] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/network/PassiveSocket.h\n'}
+[8.406697] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/network/SimpleSocket.h\n'}
+[8.407575] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/network/StatTimer.h\n'}
+[8.408704] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/serial/common.h\n'}
+[8.410152] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/serial/serial.h\n'}
+[8.410946] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/serial/impl/unix/lock.h\n'}
+[8.411650] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/serial/impl/unix/unix.h\n'}
+[8.412306] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/core/serial/impl/unix/unix_serial.h\n'}
+[8.417321] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/src/CYdLidar.h\n'}
+[8.419514] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/src/ETLidarDriver.h\n'}
+[8.420935] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/src/ydlidar_driver.h\n'}
+[8.422423] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/src/ydlidar_sdk.h\n'}
+[8.423901] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/src/filters/FilterInterface.h\n'}
+[8.425405] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/src/filters/NoiseFilter.h\n'}
+[8.426936] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/include/ydlidar_config.h\n'}
+[8.428521] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/lib/libydlidar_sdk.a\n'}
+[8.430543] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/lib/pkgconfig/YDLIDAR_SDK.pc\n'}
+[8.432834] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfig.cmake\n'}
+[8.436574] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkTargets.cmake\n'}
+[8.437899] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/lib/cmake/ydlidar_sdk/ydlidar_sdkConfigVersion.cmake\n'}
+[8.439377] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/FindYDLIDAR_SDK.cmake\n'}
+[8.441332] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK\n'}
+[8.442790] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/install_package.cmake\n'}
+[8.443900] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/cmake_uninstall.cmake.in\n'}
+[8.445526] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/FindPackage.cmake.in\n'}
+[8.446818] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/PkgConfig.pc.in\n'}
+[8.448019] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfig.cmake.in\n'}
+[8.449298] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/PackageConfigVersion.cmake.in\n'}
+[8.457207] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/script_show_final_summary.cmake\n'}
+[8.458109] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/common\n'}
+[8.458686] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_base.cmake\n'}
+[8.459404] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/common/ydlidar_parse.cmake\n'}
+[8.460038] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/LICENSE.txt\n'}
+[8.460670] (-) TimerEvent: {}
+[8.461920] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/README.md\n'}
+[8.464688] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc\n'}
+[8.465623] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs\n'}
+[8.466169] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs.md\n'}
+[8.466618] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs.md\n'}
+[8.467150] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs.md\n'}
+[8.467635] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/README.md\n'}
+[8.468673] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Software_FAQs_cn.md\n'}
+[8.469387] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/General_FAQs_cn.md\n'}
+[8.469963] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/FAQs/Hardware_FAQs_cn.md\n'}
+[8.470488] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar_SDK_Communication_Protocol.pdf\n'}
+[8.470985] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials\n'}
+[8.474163] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_python.md\n'}
+[8.475017] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/examine_the_simple_lidar_tutorial.md\n'}
+[8.475672] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_network_adapter_tutorial_c++.md\n'}
+[8.477647] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c.md\n'}
+[8.478434] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/tutorials/writing_lidar_tutorial_c++.md\n'}
+[8.479361] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Diagram.md\n'}
+[8.488307] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLIDAR_SDK_API_for_Developers.md\n'}
+[8.493763] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Dataset.md\n'}
+[8.497477] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/README.md\n'}
+[8.498200] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.html\n'}
+[8.498779] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.md\n'}
+[8.499289] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto\n'}
+[8.499783] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_udev_rules.md\n'}
+[8.500398] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_install.md\n'}
+[8.500910] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_gerenrate_vs_project_by_cmake.md\n'}
+[8.501634] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_build_and_debug_using_vscode.md\n'}
+[8.502202] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/README.md\n'}
+[8.502866] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_csharp_project.md\n'}
+[8.503418] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images\n'}
+[8.503962] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_running.png\n'}
+[8.504514] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/cpack.png\n'}
+[8.505166] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_exception.png\n'}
+[8.505848] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB1.png\n'}
+[8.507394] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ydlidar_lidar_monitor.png\n'}
+[8.509919] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/ttyUSB0.png\n'}
+[8.510911] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_build.png\n'}
+[8.511719] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_project.png\n'}
+[8.512555] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sequence.png\n'}
+[8.513854] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/csharp_library.png\n'}
+[8.516729] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode\n'}
+[8.527400] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/run_tasks.jpg\n'}
+[8.528273] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/vscode/tasks.png\n'}
+[8.528947] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_init.png\n'}
+[8.531056] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/images/sdk_scanning.png\n'}
+[8.531790] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_solve_slow_pull_from_cn.md\n'}
+[8.532497] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/howto/how_to_create_a_pull.md\n'}
+[8.535759] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/YDLidar-SDK-Communication-Protocol.pdf\n'}
+[8.539078] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/SDK.pdf\n'}
+[8.539854] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images\n'}
+[8.540548] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_architecture.png\n'}
+[8.543434] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame_intensity.png\n'}
+[8.546714] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/FlowChart.png\n'}
+[8.550546] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/frame.png\n'}
+[8.556569] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/communication_mechanism.png\n'}
+[8.557118] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.jpg\n'}
+[8.557675] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sequence.png\n'}
+[8.558089] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/system_workflow.png\n'}
+[8.558502] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/angle_q2.png\n'}
+[8.558977] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/EAI.png\n'}
+[8.559423] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/YDLidar.png\n'}
+[8.559945] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_init.png\n'}
+[8.560593] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/images/sdk_scanning.png\n'}
+[8.561805] (-) TimerEvent: {}
+[8.565777] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/Tutorials.md\n'}
+[8.569592] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart\n'}
+[8.570373] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/ydlidar_sdk_software_installation_guide.md\n'}
+[8.571001] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/YDLIDAR_SDK/doc/quickstart/README.md\n'}
+[8.573941] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/startup/initenv.sh\n'}
+[8.601778] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin/etlidar_test\n'}
+[8.602703] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin/tof_test\n'}
+[8.603387] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin/ydlidar_test\n'}
+[8.604016] (ydlidar_sdk) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin/lidar_c_api_test\n'}
+[8.604646] (ydlidar_sdk) CommandEnded: {'returncode': 0}
+[8.672399] (-) TimerEvent: {}
+[8.768604] (ydlidar_sdk) JobEnded: {'identifier': 'ydlidar_sdk', 'rc': 0}
+[8.774921] (-) TimerEvent: {}
+[8.782359] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'install'}
+[8.784391] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[8.857142] (slam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.860151] (slam_gmapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.866592] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib/slam_gmapping/slam_gmapping\n'}
+[8.871827] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib/slam_gmapping/transform\n'}
+[8.875194] (-) TimerEvent: {}
+[8.884916] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/launch/gmapping_launch.py\n'}
+[8.891398] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py\n'}
+[8.899918] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping\n'}
+[8.907072] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping\n'}
+[8.910845] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh\n'}
+[8.913539] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv\n'}
+[8.919762] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/environment/path.sh\n'}
+[8.922742] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/environment/path.dsv\n'}
+[8.930457] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/local_setup.bash\n'}
+[8.941319] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/local_setup.sh\n'}
+[8.946380] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/local_setup.zsh\n'}
+[8.950468] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/local_setup.dsv\n'}
+[8.952974] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.dsv\n'}
+[8.975552] (-) TimerEvent: {}
+[9.028992] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping\n'}
+[9.036783] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake\n'}
+[9.040518] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake\n'}
+[9.049449] (slam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.xml\n'}
+[9.074310] (slam_gmapping) CommandEnded: {'returncode': 0}
+[9.078816] (-) TimerEvent: {}
+[9.192951] (-) TimerEvent: {}
+[9.294651] (-) TimerEvent: {}
+[9.402512] (-) TimerEvent: {}
+[9.504028] (-) TimerEvent: {}
+[9.509821] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 0}
+[9.604365] (-) TimerEvent: {}
+[9.639172] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 0}
+[9.644252] (serial_motor_demo) JobStarted: {'identifier': 'serial_motor_demo'}
+[9.704574] (-) TimerEvent: {}
+[9.805862] (-) TimerEvent: {}
+[9.909409] (-) TimerEvent: {}
+[10.010269] (-) TimerEvent: {}
+[10.111383] (-) TimerEvent: {}
+[10.213893] (-) TimerEvent: {}
+[10.316586] (-) TimerEvent: {}
+[10.418116] (-) TimerEvent: {}
+[10.519189] (-) TimerEvent: {}
+[10.620461] (-) TimerEvent: {}
+[10.721464] (-) TimerEvent: {}
+[10.822341] (-) TimerEvent: {}
+[10.923997] (-) TimerEvent: {}
+[11.025071] (-) TimerEvent: {}
+[11.129219] (-) TimerEvent: {}
+[11.230423] (-) TimerEvent: {}
+[11.331719] (-) TimerEvent: {}
+[11.432798] (-) TimerEvent: {}
+[11.537127] (-) TimerEvent: {}
+[11.638071] (-) TimerEvent: {}
+[11.739734] (-) TimerEvent: {}
+[11.840807] (-) TimerEvent: {}
+[11.942528] (-) TimerEvent: {}
+[12.044281] (-) TimerEvent: {}
+[12.153268] (-) TimerEvent: {}
+[12.274680] (-) TimerEvent: {}
+[12.382819] (-) TimerEvent: {}
+[12.483744] (-) TimerEvent: {}
+[12.584669] (-) TimerEvent: {}
+[12.687811] (-) TimerEvent: {}
+[12.788668] (-) TimerEvent: {}
+[12.889600] (-) TimerEvent: {}
+[12.990563] (-) TimerEvent: {}
+[13.091433] (-) TimerEvent: {}
+[13.193913] (-) TimerEvent: {}
+[13.295966] (-) TimerEvent: {}
+[13.399364] (-) TimerEvent: {}
+[13.501553] (-) TimerEvent: {}
+[13.606317] (-) TimerEvent: {}
+[13.710205] (-) TimerEvent: {}
+[13.811350] (-) TimerEvent: {}
+[13.912223] (-) TimerEvent: {}
+[14.013529] (-) TimerEvent: {}
+[14.115475] (-) TimerEvent: {}
+[14.216777] (-) TimerEvent: {}
+[14.317811] (-) TimerEvent: {}
+[14.418901] (-) TimerEvent: {}
+[14.519940] (-) TimerEvent: {}
+[14.620859] (-) TimerEvent: {}
+[14.721944] (-) TimerEvent: {}
+[14.823190] (-) TimerEvent: {}
+[14.924952] (-) TimerEvent: {}
+[15.027271] (-) TimerEvent: {}
+[15.128362] (-) TimerEvent: {}
+[15.229666] (-) TimerEvent: {}
+[15.330640] (-) TimerEvent: {}
+[15.432709] (-) TimerEvent: {}
+[15.536415] (-) TimerEvent: {}
+[15.621130] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/build'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.53.5 41048 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '126', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.53.5 41048 192.168.53.36 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/prefix_override:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs'}, 'shell': False}
+[15.639141] (-) TimerEvent: {}
+[15.745238] (-) TimerEvent: {}
+[15.847460] (-) TimerEvent: {}
+[15.948391] (-) TimerEvent: {}
+[16.049624] (-) TimerEvent: {}
+[16.151094] (-) TimerEvent: {}
+[16.252003] (-) TimerEvent: {}
+[16.352844] (-) TimerEvent: {}
+[16.454360] (-) TimerEvent: {}
+[16.555283] (-) TimerEvent: {}
+[16.659858] (-) TimerEvent: {}
+[16.761461] (-) TimerEvent: {}
+[16.863087] (-) TimerEvent: {}
+[16.965330] (-) TimerEvent: {}
+[17.066207] (-) TimerEvent: {}
+[17.167198] (-) TimerEvent: {}
+[17.273530] (-) TimerEvent: {}
+[17.375123] (-) TimerEvent: {}
+[17.465945] (serial_motor_demo) StdoutLine: {'line': b'running develop\n'}
+[17.475363] (-) TimerEvent: {}
+[17.578638] (-) TimerEvent: {}
+[17.680600] (-) TimerEvent: {}
+[17.782386] (-) TimerEvent: {}
+[17.885608] (-) TimerEvent: {}
+[17.987533] (-) TimerEvent: {}
+[18.090678] (-) TimerEvent: {}
+[18.194208] (-) TimerEvent: {}
+[18.295155] (-) TimerEvent: {}
+[18.396040] (-) TimerEvent: {}
+[18.500741] (-) TimerEvent: {}
+[18.602262] (-) TimerEvent: {}
+[18.703670] (-) TimerEvent: {}
+[18.805000] (-) TimerEvent: {}
+[18.895463] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[18.910987] (-) TimerEvent: {}
+[18.913276] (serial_motor_demo) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/serial_motor_demo', 'build', '--build-base', '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/build', 'install', '--record', '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/install.log', '--install-scripts', '$base/lib/serial_motor_demo', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.53.5 41048 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '126', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.53.5 41048 192.168.53.36 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/prefix_override:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs'}, 'shell': False}
+[19.013614] (-) TimerEvent: {}
+[19.114974] (-) TimerEvent: {}
+[19.216683] (-) TimerEvent: {}
+[19.321235] (-) TimerEvent: {}
+[19.422384] (-) TimerEvent: {}
+[19.525199] (-) TimerEvent: {}
+[19.626563] (-) TimerEvent: {}
+[19.729345] (-) TimerEvent: {}
+[19.831946] (-) TimerEvent: {}
+[19.934097] (-) TimerEvent: {}
+[20.034929] (-) TimerEvent: {}
+[20.135841] (-) TimerEvent: {}
+[20.237393] (-) TimerEvent: {}
+[20.338935] (-) TimerEvent: {}
+[20.441322] (-) TimerEvent: {}
+[20.542999] (-) TimerEvent: {}
+[20.645112] (-) TimerEvent: {}
+[20.706648] (serial_motor_demo) StdoutLine: {'line': b'running egg_info\n'}
+[20.713369] (serial_motor_demo) StdoutLine: {'line': b'writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO\n'}
+[20.718347] (serial_motor_demo) StdoutLine: {'line': b'writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt\n'}
+[20.720606] (serial_motor_demo) StdoutLine: {'line': b'writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt\n'}
+[20.722981] (serial_motor_demo) StdoutLine: {'line': b'writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt\n'}
+[20.723730] (serial_motor_demo) StdoutLine: {'line': b'writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt\n'}
+[20.745337] (-) TimerEvent: {}
+[20.848248] (-) TimerEvent: {}
+[20.931191] (serial_motor_demo) StdoutLine: {'line': b"reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[20.938447] (serial_motor_demo) StdoutLine: {'line': b"writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'\n"}
+[20.942078] (serial_motor_demo) StdoutLine: {'line': b'running build\n'}
+[20.943575] (serial_motor_demo) StdoutLine: {'line': b'running build_py\n'}
+[20.948429] (-) TimerEvent: {}
+[20.950412] (serial_motor_demo) StdoutLine: {'line': b'running install\n'}
+[20.954578] (serial_motor_demo) StdoutLine: {'line': b'running install_lib\n'}
+[20.971534] (serial_motor_demo) StdoutLine: {'line': b'running install_data\n'}
+[20.980081] (serial_motor_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.993279] (serial_motor_demo) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[21.006848] (serial_motor_demo) StdoutLine: {'line': b'Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages/serial_motor_demo-0.0.0-py3.8.egg-info\n'}
+[21.025217] (serial_motor_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[21.048689] (-) TimerEvent: {}
+[21.135403] (serial_motor_demo) StdoutLine: {'line': b'Installing driver script to /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[21.136545] (serial_motor_demo) StdoutLine: {'line': b'Installing gui script to /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/serial_motor_demo\n'}
+[21.138858] (serial_motor_demo) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/install.log'\n"}
+[21.149120] (-) TimerEvent: {}
+[21.251783] (-) TimerEvent: {}
+[21.276122] (serial_motor_demo) CommandEnded: {'returncode': 0}
+[21.352317] (-) TimerEvent: {}
+[21.370248] (serial_motor_demo) JobEnded: {'identifier': 'serial_motor_demo', 'rc': 0}
+[21.452549] (-) TimerEvent: {}
+[21.553449] (-) TimerEvent: {}
+[21.654373] (-) TimerEvent: {}
+[21.757318] (-) TimerEvent: {}
+[21.858246] (-) TimerEvent: {}
+[21.959135] (-) TimerEvent: {}
+[22.060922] (-) TimerEvent: {}
+[22.162583] (-) TimerEvent: {}
+[22.263435] (-) TimerEvent: {}
+[22.364337] (-) TimerEvent: {}
+[22.465350] (-) TimerEvent: {}
+[22.566217] (-) TimerEvent: {}
+[22.667272] (-) TimerEvent: {}
+[22.770077] (-) TimerEvent: {}
+[22.871129] (-) TimerEvent: {}
+[22.972062] (-) TimerEvent: {}
+[23.073060] (-) TimerEvent: {}
+[23.174100] (-) TimerEvent: {}
+[23.275610] (-) TimerEvent: {}
+[23.377227] (-) TimerEvent: {}
+[23.478366] (-) TimerEvent: {}
+[23.579963] (-) TimerEvent: {}
+[23.681307] (-) TimerEvent: {}
+[23.782086] (-) TimerEvent: {}
+[23.883004] (-) TimerEvent: {}
+[23.984597] (-) TimerEvent: {}
+[24.030287] (diffdrive_arduino) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libfake_robot.so\x1b[0m\n'}
+[24.084784] (-) TimerEvent: {}
+[24.185647] (-) TimerEvent: {}
+[24.286548] (-) TimerEvent: {}
+[24.387752] (-) TimerEvent: {}
+[24.488788] (-) TimerEvent: {}
+[24.590166] (-) TimerEvent: {}
+[24.691133] (-) TimerEvent: {}
+[24.792299] (-) TimerEvent: {}
+[24.893422] (-) TimerEvent: {}
+[24.994461] (-) TimerEvent: {}
+[25.096135] (-) TimerEvent: {}
+[25.197635] (-) TimerEvent: {}
+[25.298641] (-) TimerEvent: {}
+[25.399747] (-) TimerEvent: {}
+[25.414168] (diffdrive_arduino) StdoutLine: {'line': b'[ 42%] Built target fake_robot\n'}
+[25.499938] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target diffdrive_arduino\x1b[0m\n'}
+[25.500641] (-) TimerEvent: {}
+[25.601412] (-) TimerEvent: {}
+[25.702122] (-) TimerEvent: {}
+[25.723110] (diffdrive_arduino) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o\x1b[0m\n'}
+[25.802329] (-) TimerEvent: {}
+[25.903121] (-) TimerEvent: {}
+[26.004050] (-) TimerEvent: {}
+[26.104969] (-) TimerEvent: {}
+[26.205768] (-) TimerEvent: {}
+[26.306601] (-) TimerEvent: {}
+[26.407521] (-) TimerEvent: {}
+[26.508440] (-) TimerEvent: {}
+[26.609495] (-) TimerEvent: {}
+[26.710725] (-) TimerEvent: {}
+[26.811935] (-) TimerEvent: {}
+[26.912896] (-) TimerEvent: {}
+[27.013766] (-) TimerEvent: {}
+[27.114649] (-) TimerEvent: {}
+[27.215629] (-) TimerEvent: {}
+[27.316668] (-) TimerEvent: {}
+[27.417810] (-) TimerEvent: {}
+[27.519266] (-) TimerEvent: {}
+[27.622925] (-) TimerEvent: {}
+[27.723949] (-) TimerEvent: {}
+[27.829241] (-) TimerEvent: {}
+[27.933833] (-) TimerEvent: {}
+[28.043376] (-) TimerEvent: {}
+[28.144310] (-) TimerEvent: {}
+[28.245246] (-) TimerEvent: {}
+[28.346267] (-) TimerEvent: {}
+[28.447212] (-) TimerEvent: {}
+[28.548262] (-) TimerEvent: {}
+[28.650594] (-) TimerEvent: {}
+[28.751618] (-) TimerEvent: {}
+[28.854043] (-) TimerEvent: {}
+[28.954842] (-) TimerEvent: {}
+[29.055831] (-) TimerEvent: {}
+[29.156719] (-) TimerEvent: {}
+[29.257634] (-) TimerEvent: {}
+[29.358607] (-) TimerEvent: {}
+[29.459622] (-) TimerEvent: {}
+[29.567477] (-) TimerEvent: {}
+[29.669777] (-) TimerEvent: {}
+[29.772220] (-) TimerEvent: {}
+[29.873165] (-) TimerEvent: {}
+[29.974006] (-) TimerEvent: {}
+[30.074880] (-) TimerEvent: {}
+[30.175875] (-) TimerEvent: {}
+[30.276793] (-) TimerEvent: {}
+[30.377840] (-) TimerEvent: {}
+[30.478722] (-) TimerEvent: {}
+[30.579677] (-) TimerEvent: {}
+[30.680658] (-) TimerEvent: {}
+[30.781917] (-) TimerEvent: {}
+[30.882773] (-) TimerEvent: {}
+[30.984750] (-) TimerEvent: {}
+[31.086350] (-) TimerEvent: {}
+[31.187527] (-) TimerEvent: {}
+[31.288566] (-) TimerEvent: {}
+[31.389571] (-) TimerEvent: {}
+[31.490431] (-) TimerEvent: {}
+[31.591394] (-) TimerEvent: {}
+[31.692440] (-) TimerEvent: {}
+[31.793389] (-) TimerEvent: {}
+[31.894228] (-) TimerEvent: {}
+[31.995071] (-) TimerEvent: {}
+[32.095996] (-) TimerEvent: {}
+[32.196950] (-) TimerEvent: {}
+[32.298914] (-) TimerEvent: {}
+[32.402026] (-) TimerEvent: {}
+[32.503004] (-) TimerEvent: {}
+[32.603963] (-) TimerEvent: {}
+[32.704908] (-) TimerEvent: {}
+[32.806082] (-) TimerEvent: {}
+[32.907050] (-) TimerEvent: {}
+[33.008700] (-) TimerEvent: {}
+[33.109798] (-) TimerEvent: {}
+[33.211317] (-) TimerEvent: {}
+[33.313097] (-) TimerEvent: {}
+[33.417098] (-) TimerEvent: {}
+[33.518947] (-) TimerEvent: {}
+[33.619852] (-) TimerEvent: {}
+[33.720744] (-) TimerEvent: {}
+[33.823283] (-) TimerEvent: {}
+[33.924171] (-) TimerEvent: {}
+[34.025148] (-) TimerEvent: {}
+[34.126174] (-) TimerEvent: {}
+[34.227041] (-) TimerEvent: {}
+[34.327929] (-) TimerEvent: {}
+[34.428859] (-) TimerEvent: {}
+[34.529754] (-) TimerEvent: {}
+[34.630687] (-) TimerEvent: {}
+[34.732327] (-) TimerEvent: {}
+[34.834879] (-) TimerEvent: {}
+[34.935785] (-) TimerEvent: {}
+[35.036761] (-) TimerEvent: {}
+[35.137796] (-) TimerEvent: {}
+[35.238797] (-) TimerEvent: {}
+[35.339867] (-) TimerEvent: {}
+[35.440753] (-) TimerEvent: {}
+[35.541649] (-) TimerEvent: {}
+[35.642579] (-) TimerEvent: {}
+[35.744512] (-) TimerEvent: {}
+[35.845746] (-) TimerEvent: {}
+[35.946745] (-) TimerEvent: {}
+[36.048042] (-) TimerEvent: {}
+[36.148908] (-) TimerEvent: {}
+[36.251497] (-) TimerEvent: {}
+[36.352633] (-) TimerEvent: {}
+[36.453538] (-) TimerEvent: {}
+[36.554640] (-) TimerEvent: {}
+[36.656484] (-) TimerEvent: {}
+[36.757732] (-) TimerEvent: {}
+[36.858652] (-) TimerEvent: {}
+[36.959639] (-) TimerEvent: {}
+[37.060859] (-) TimerEvent: {}
+[37.161910] (-) TimerEvent: {}
+[37.262818] (-) TimerEvent: {}
+[37.363749] (-) TimerEvent: {}
+[37.465980] (-) TimerEvent: {}
+[37.566818] (-) TimerEvent: {}
+[37.667795] (-) TimerEvent: {}
+[37.768772] (-) TimerEvent: {}
+[37.869781] (-) TimerEvent: {}
+[37.970901] (-) TimerEvent: {}
+[38.072162] (-) TimerEvent: {}
+[38.173098] (-) TimerEvent: {}
+[38.273932] (-) TimerEvent: {}
+[38.374825] (-) TimerEvent: {}
+[38.475708] (-) TimerEvent: {}
+[38.576778] (-) TimerEvent: {}
+[38.677973] (-) TimerEvent: {}
+[38.779157] (-) TimerEvent: {}
+[38.880176] (-) TimerEvent: {}
+[38.981128] (-) TimerEvent: {}
+[39.082169] (-) TimerEvent: {}
+[39.170882] (diffdrive_arduino) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[39.182331] (-) TimerEvent: {}
+[39.283130] (-) TimerEvent: {}
+[39.384174] (-) TimerEvent: {}
+[39.485517] (-) TimerEvent: {}
+[39.586715] (-) TimerEvent: {}
+[39.687986] (-) TimerEvent: {}
+[39.789456] (-) TimerEvent: {}
+[39.890690] (-) TimerEvent: {}
+[39.991900] (-) TimerEvent: {}
+[40.093411] (-) TimerEvent: {}
+[40.195724] (-) TimerEvent: {}
+[40.296759] (-) TimerEvent: {}
+[40.398316] (-) TimerEvent: {}
+[40.401885] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[40.467038] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[40.498636] (-) TimerEvent: {}
+[40.599599] (-) TimerEvent: {}
+[40.685849] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[40.687938] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.53.5 41048 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '126'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.53.5 41048 192.168.53.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[40.700121] (-) TimerEvent: {}
+[40.747653] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.750797] (diffdrive_arduino) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[40.753618] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml\n'}
+[40.756074] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml\n'}
+[40.759731] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[40.761991] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib/libfake_robot.so\n'}
+[40.765999] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml\n'}
+[40.768871] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py\n'}
+[40.770870] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py\n'}
+[40.774103] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[40.778732] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[40.781137] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[40.784743] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[40.787400] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[40.790085] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[40.793199] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[40.795445] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[40.798519] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[40.800366] (-) TimerEvent: {}
+[40.802064] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[40.803334] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[40.805764] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[40.807455] (diffdrive_arduino) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[40.859898] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[40.862906] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[40.865760] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.868350] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.871036] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[40.873130] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[40.875541] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[40.882169] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[40.904437] (-) TimerEvent: {}
+[41.005496] (-) TimerEvent: {}
+[41.106605] (-) TimerEvent: {}
+[41.207350] (-) TimerEvent: {}
+[41.277422] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[41.282033] (-) EventReactorShutdown: {}

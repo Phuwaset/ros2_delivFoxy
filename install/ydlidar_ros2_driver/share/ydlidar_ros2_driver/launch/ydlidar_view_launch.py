@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master/launch/ydlidar_view_launch.py

@@ -1,0 +1,68 @@
+[0.377s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/openslam_gmapping -- -j4 -l4
+[1.264s] [ 13%] Built target utils
+[1.504s] [ 27%] Built target sensor_base
+[1.758s] [ 40%] Built target sensor_range
+[2.009s] [ 54%] Built target sensor_odometry
+[2.321s] [ 77%] Built target scanmatcher
+[2.625s] [100%] Built target gridfastslam
+[2.922s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/openslam_gmapping -- -j4 -l4
+[3.316s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/openslam_gmapping
+[3.407s] -- Install configuration: ""
+[3.413s] -- Execute custom install script
+[3.416s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libgridfastslam.a
+[3.420s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libscanmatcher.a
+[3.433s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libsensor_base.a
+[3.435s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.439s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.440s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.443s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.447s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libsensor_odometry.a
+[3.454s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libsensor_range.a
+[3.458s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/libutils.a
+[3.461s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.463s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.466s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh
+[3.471s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv
+[3.490s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/grid/accessstate.h
+[3.492s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/grid/array2d.h
+[3.493s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/grid/harray2d.h
+[3.497s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/grid/map.h
+[3.501s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h
+[3.512s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx
+[3.513s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h
+[3.513s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/log/configuration.h
+[3.518s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/log/sensorlog.h
+[3.521s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h
+[3.524s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h
+[3.527s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h
+[3.530s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h
+[3.534s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h
+[3.538s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h
+[3.557s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h
+[3.564s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h
+[3.569s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h
+[3.574s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h
+[3.579s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/autoptr.h
+[3.584s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/commandline.h
+[3.589s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/gvalues.h
+[3.593s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/macro_params.h
+[3.598s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/point.h
+[3.603s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include//gmapping/utils/stat.h
+[3.609s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping
+[3.614s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping
+[3.621s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh
+[3.633s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv
+[3.638s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh
+[3.643s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv
+[3.654s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash
+[3.659s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh
+[3.668s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh
+[3.677s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv
+[3.681s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.dsv
+[3.755s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping
+[3.759s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake
+[3.759s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.770s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake
+[3.771s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake
+[3.771s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.xml
+[3.849s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/openslam_gmapping

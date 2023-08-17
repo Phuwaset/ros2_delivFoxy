@@ -1,0 +1,32 @@
+[3.763s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/slam_gmapping
+[4.040s]  -fuse-ld=lld -Wl,--disable-new-dtags
+[4.046s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.461s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.814s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.978s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[8.488s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.549s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[12.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.129s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[14.975s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[15.089s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[15.829s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[15.864s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[20.889s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[20.954s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[21.237s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[21.987s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[22.738s] -- Found openslam_gmapping: 0.1.2 (/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[22.759s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[23.561s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.564s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include
+[23.565s] -- Configured cppcheck exclude dirs and/or files: 
+[23.571s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.580s] -- Added test 'lint_cmake' to check CMake code style
+[23.586s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[23.611s] -- Added test 'uncrustify' to check C / C++ code style
+[23.613s] -- Configured uncrustify additional arguments: 
+[23.618s] -- Added test 'xmllint' to check XML markup files
+[23.696s] -- Configuring done
+[23.920s] -- Generating done
+[23.943s] -- Build files have been written to: /home/ubuntu/ros2_delivFoxy/build/slam_gmapping

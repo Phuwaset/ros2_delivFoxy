@@ -1,0 +1,364 @@
+[0.234s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/control_ros2/install/diffdrive_arduino:/home/ubuntu/control_ros2/install/ros2_control_demos:/home/ubuntu/control_ros2/install/ros2_control_demo_bringup:/home/ubuntu/control_ros2/install/rrbot_description:/home/ubuntu/control_ros2/install/ros2_control_demo_hardware:/home/ubuntu/control_ros2/install/diffbot_description:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/slam_gmapping
+[0.904s] -- The C compiler identification is GNU 9.4.0
+[1.493s] -- The CXX compiler identification is GNU 9.4.0
+[1.580s] -- Check for working C compiler: /usr/bin/cc
+[2.623s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.641s] -- Detecting C compiler ABI info
+[3.511s] -- Detecting C compiler ABI info - done
+[3.627s] -- Detecting C compile features
+[3.629s] -- Detecting C compile features - done
+[3.665s] -- Check for working CXX compiler: /usr/bin/c++
+[4.794s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.801s] -- Detecting CXX compiler ABI info
+[5.909s] -- Detecting CXX compiler ABI info - done
+[6.139s] -- Detecting CXX compile features
+[6.142s] -- Detecting CXX compile features - done
+[6.163s]  -fuse-ld=lld -Wl,--disable-new-dtags
+[6.239s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.683s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.684s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.902s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[10.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.781s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[12.566s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[13.161s] -- Found FastRTPS: /opt/ros/foxy/include  
+[14.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.366s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[17.130s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[17.451s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[18.465s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[18.515s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[18.526s] -- Looking for pthread.h
+[19.490s] -- Looking for pthread.h - found
+[19.496s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[20.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[20.631s] -- Looking for pthread_create in pthreads
+[21.415s] -- Looking for pthread_create in pthreads - not found
+[21.417s] -- Looking for pthread_create in pthread
+[22.332s] -- Looking for pthread_create in pthread - found
+[22.338s] -- Found Threads: TRUE  
+[29.418s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[29.612s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[29.701s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[30.057s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[31.023s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[31.600s] -- Found openslam_gmapping: 0.1.2 (/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[31.666s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[32.845s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.861s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include
+[32.862s] -- Configured cppcheck exclude dirs and/or files: 
+[32.868s] -- Added test 'flake8' to check Python code syntax and style conventions
+[32.889s] -- Added test 'lint_cmake' to check CMake code style
+[32.897s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[32.925s] -- Added test 'uncrustify' to check C / C++ code style
+[32.928s] -- Configured uncrustify additional arguments: 
+[32.939s] -- Added test 'xmllint' to check XML markup files
+[33.024s] -- Configuring done
+[33.223s] -- Generating done
+[33.281s] -- Build files have been written to: /home/ubuntu/ros2_delivFoxy/build/slam_gmapping
+[33.417s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/control_ros2/install/diffdrive_arduino:/home/ubuntu/control_ros2/install/ros2_control_demos:/home/ubuntu/control_ros2/install/ros2_control_demo_bringup:/home/ubuntu/control_ros2/install/rrbot_description:/home/ubuntu/control_ros2/install/ros2_control_demo_hardware:/home/ubuntu/control_ros2/install/diffbot_description:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/slam_gmapping
+[33.451s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/control_ros2/install/diffdrive_arduino:/home/ubuntu/control_ros2/install/ros2_control_demos:/home/ubuntu/control_ros2/install/ros2_control_demo_bringup:/home/ubuntu/control_ros2/install/rrbot_description:/home/ubuntu/control_ros2/install/ros2_control_demo_hardware:/home/ubuntu/control_ros2/install/diffbot_description:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/slam_gmapping -- -j4 -l4
+[34.042s] [35m[1mScanning dependencies of target transform[0m
+[35.029s] [ 25%] [32mBuilding CXX object CMakeFiles/transform.dir/src/transform.cpp.o[0m
+[50.718s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[50.728s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[50.729s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[50.737s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[50.740s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[50.745s]   140 |  [01;35m[Kif[m[K (count>0)
+[50.747s]       |  [01;35m[K^~[m[K
+[50.750s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[50.752s]   142 |   [01;36m[Kout[m[K++;
+[50.752s]       |   [01;36m[K^~~[m[K
+[50.796s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10[m[K,
+[50.798s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[50.799s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[50.799s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/utils/point.h:[m[K At global scope:
+[50.800s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/utils/point.h:205:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.805s]   205 | }[01;35m[K;[m[K //end namespace
+[50.806s]       |  [01;35m[K^[m[K
+[50.864s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4[m[K,
+[50.865s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+[50.866s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[50.867s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[50.867s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[50.868s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.869s]    21 | }[01;35m[K;[m[K //end namespace
+[50.869s]       |  [01;35m[K^[m[K
+[50.893s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+[50.894s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[50.895s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[50.896s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[50.896s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.898s]    23 | }[01;35m[K;[m[K //end namespace
+[50.899s]       |  [01;35m[K^[m[K
+[50.938s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7[m[K,
+[50.939s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[50.940s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[50.941s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[50.942s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.943s]    17 | }[01;35m[K;[m[K
+[50.944s]       |  [01;35m[K^[m[K
+[50.985s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8[m[K,
+[50.986s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[50.986s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[50.987s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[50.988s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[50.997s]    33 | }[01;35m[K;[m[K
+[51.000s]       |  [01;35m[K^[m[K
+[51.001s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9[m[K,
+[51.002s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[51.013s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.014s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.015s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.016s]    27 | }[01;35m[K;[m[K
+[51.017s]       |  [01;35m[K^[m[K
+[51.018s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10[m[K,
+[51.029s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[51.032s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.033s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.038s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.043s]    24 | }[01;35m[K;[m[K
+[51.044s]       |  [01;35m[K^[m[K
+[51.045s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11[m[K,
+[51.050s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[51.051s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.055s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.056s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.057s]    15 | }[01;35m[K;[m[K
+[51.058s]       |  [01;35m[K^[m[K
+[51.068s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[51.072s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.073s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.074s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.081s]    27 | }[01;35m[K;[m[K
+[51.086s]       |  [01;35m[K^[m[K
+[51.133s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/map.h:5[m[K,
+[51.135s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[51.136s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[51.137s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[51.138s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.139s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.140s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.142s]     6 | }[01;35m[K;[m[K
+[51.143s]       |  [01;35m[K^[m[K
+[51.175s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/map.h:6[m[K,
+[51.176s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[51.177s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[51.178s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[51.179s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.180s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.181s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.183s]   185 | }[01;35m[K;[m[K
+[51.183s]       |  [01;35m[K^[m[K
+[51.219s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[51.221s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[51.222s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[51.223s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.224s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.224s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/map.h:262:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.225s]   262 | }[01;35m[K;[m[K
+[51.226s]       |  [01;35m[K^[m[K
+[51.245s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5[m[K,
+[51.246s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+[51.246s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[51.249s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[51.250s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.252s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.260s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.261s]    96 | }[01;35m[K;[m[K
+[51.262s]       |  [01;35m[K^[m[K
+[51.305s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+[51.307s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[51.308s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[51.309s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.310s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.312s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.313s]   197 | }[01;35m[K;[m[K
+[51.314s]       |  [01;35m[K^[m[K
+[51.390s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[51.390s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[51.391s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.392s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.395s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.396s]    52 | }[01;35m[K;[m[K
+[51.397s]       |  [01;35m[K^[m[K
+[51.403s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7[m[K,
+[51.403s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[51.405s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.406s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.407s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.408s]   145 | }[01;35m[K;[m[K //end namespace
+[51.408s]       |  [01;35m[K^[m[K
+[51.590s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[51.592s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.593s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.594s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.594s]   250 | }[01;35m[K;[m[K
+[51.595s]       |  [01;35m[K^[m[K
+[51.603s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16[m[K,
+[51.603s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[51.604s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[51.610s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[51.612s]    17 | }[01;35m[K;[m[K
+[51.612s]       |  [01;35m[K^[m[K
+[52.480s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/transform.h:25[m[K,
+[52.482s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/transform.cpp:3[m[K:
+[52.484s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[52.485s]   335 | }[01;35m[K;[m[K
+[52.485s]       |  [01;35m[K^[m[K
+[64.987s] [ 50%] [32m[1mLinking CXX executable transform[0m
+[67.188s] [ 50%] Built target transform
+[67.371s] [35m[1mScanning dependencies of target slam_gmapping[0m
+[68.288s] [ 75%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[80.253s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[80.257s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.258s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.258s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[80.259s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:2:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[80.260s]   140 |  [01;35m[Kif[m[K (count>0)
+[80.261s]       |  [01;35m[K^~[m[K
+[80.262s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:3:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[80.264s]   142 |   [01;36m[Kout[m[K++;
+[80.266s]       |   [01;36m[K^~~[m[K
+[80.327s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:10[m[K,
+[80.333s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.334s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.335s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/utils/point.h:[m[K At global scope:
+[80.337s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/utils/point.h:205:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.340s]   205 | }[01;35m[K;[m[K //end namespace
+[80.341s]       |  [01;35m[K^[m[K
+[80.356s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:4[m[K,
+[80.360s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+[80.361s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[80.362s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.362s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.364s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensor.h:21:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.366s]    21 | }[01;35m[K;[m[K //end namespace
+[80.366s]       |  [01;35m[K^[m[K
+[80.380s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:6[m[K,
+[80.382s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[80.383s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.385s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.386s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_base/sensorreading.h:23:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.387s]    23 | }[01;35m[K;[m[K //end namespace
+[80.388s]       |  [01;35m[K^[m[K
+[80.406s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:7[m[K,
+[80.413s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[80.415s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.416s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.416s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometrysensor.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.417s]    17 | }[01;35m[K;[m[K
+[80.418s]       |  [01;35m[K^[m[K
+[80.441s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:8[m[K,
+[80.442s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[80.446s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.447s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.451s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangesensor.h:33:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.452s]    33 | }[01;35m[K;[m[K
+[80.459s]       |  [01;35m[K^[m[K
+[80.460s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:9[m[K,
+[80.464s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[80.465s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.466s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.466s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_odometry/odometryreading.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.467s]    27 | }[01;35m[K;[m[K
+[80.491s]       |  [01;35m[K^[m[K
+[80.493s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:10[m[K,
+[80.494s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[80.495s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.496s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.498s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/sensor/sensor_range/rangereading.h:24:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.499s]    24 | }[01;35m[K;[m[K
+[80.499s]       |  [01;35m[K^[m[K
+[80.501s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:11[m[K,
+[80.503s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[80.505s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.506s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.506s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/configuration.h:15:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.507s]    15 | }[01;35m[K;[m[K
+[80.509s]       |  [01;35m[K^[m[K
+[80.514s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:12[m[K,
+[80.515s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.516s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.517s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/log/sensorlog.h:27:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.518s]    27 | }[01;35m[K;[m[K
+[80.519s]       |  [01;35m[K^[m[K
+[80.569s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/map.h:5[m[K,
+[80.570s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[80.571s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[80.571s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[80.572s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.573s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.573s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/accessstate.h:6:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.574s]     6 | }[01;35m[K;[m[K
+[80.575s]       |  [01;35m[K^[m[K
+[80.661s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/map.h:6[m[K,
+[80.666s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[80.667s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[80.670s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[80.671s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.675s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.683s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/array2d.h:185:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.684s]   185 | }[01;35m[K;[m[K
+[80.695s]       |  [01;35m[K^[m[K
+[80.709s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:3[m[K,
+[80.709s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[80.710s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[80.711s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.712s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.713s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/map.h:262:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.713s]   262 | }[01;35m[K;[m[K
+[80.714s]       |  [01;35m[K^[m[K
+[80.735s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/harray2d.h:5[m[K,
+[80.736s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+[80.737s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[80.739s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[80.740s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.741s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.743s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/utils/autoptr.h:96:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.744s]    96 | }[01;35m[K;[m[K
+[80.745s]       |  [01;35m[K^[m[K
+[80.848s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:4[m[K,
+[80.851s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[80.852s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[80.855s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.856s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.857s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/grid/harray2d.h:197:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.858s]   197 | }[01;35m[K;[m[K
+[80.861s]       |  [01;35m[K^[m[K
+[80.959s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[80.965s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[80.972s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[80.979s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[80.979s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:52:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[80.980s]    52 | }[01;35m[K;[m[K
+[80.980s]       |  [01;35m[K^[m[K
+[80.994s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:7[m[K,
+[80.998s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[80.999s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[81.000s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[81.003s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/utils/stat.h:145:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[81.004s]   145 | }[01;35m[K;[m[K //end namespace
+[81.006s]       |  [01;35m[K^[m[K
+[81.151s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[81.152s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[81.153s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[81.159s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:250:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[81.161s]   250 | }[01;35m[K;[m[K
+[81.162s]       |  [01;35m[K^[m[K
+[81.162s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:16[m[K,
+[81.164s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[81.166s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[81.167s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/motionmodel.h:17:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[81.167s]    17 | }[01;35m[K;[m[K
+[81.168s]       |  [01;35m[K^[m[K
+[82.323s] In file included from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[82.324s]                  from [01m[K/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[82.327s] [01m[K/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:335:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[82.328s]   335 | }[01;35m[K;[m[K
+[82.330s]       |  [01;35m[K^[m[K
+[449.790s] make[2]: *** [CMakeFiles/slam_gmapping.dir/build.make:63: CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o] Interrupt
+[449.828s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/slam_gmapping.dir/all] Interrupt
+[449.829s] make: *** [Makefile:141: all] Interrupt

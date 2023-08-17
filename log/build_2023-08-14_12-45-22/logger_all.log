@@ -1,0 +1,788 @@
+[3.740s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.741s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8b82ae50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8b82ae50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8b835400>)
+[4.031s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.032s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.033s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.034s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.034s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_delivFoxy'
+[4.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.036s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.037s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.038s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.224s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.226s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.228s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.229s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.230s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.234s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.235s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.238s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.239s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.240s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ignore', 'ignore_ament_install']
+[4.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore'
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ignore_ament_install'
+[4.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_pkg']
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_pkg'
+[4.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['colcon_meta']
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'colcon_meta'
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extensions ['ros']
+[4.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/articubot_one) by extension 'ros'
+[4.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/articubot_one' with type 'ros.ament_cmake' and name 'articubot_one'
+[4.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[4.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[4.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[4.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[4.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[4.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[4.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[4.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[4.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[4.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[4.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extensions ['ignore', 'ignore_ament_install']
+[4.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'ignore'
+[4.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'ignore_ament_install'
+[4.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extensions ['colcon_pkg']
+[4.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'colcon_pkg'
+[4.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extensions ['colcon_meta']
+[4.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'colcon_meta'
+[4.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extensions ['ros']
+[4.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization) by extension 'ros'
+[4.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_localization' with type 'ros.ament_cmake' and name 'robot_localization'
+[4.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[4.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[4.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[4.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[4.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[4.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[4.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[4.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[4.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[4.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[4.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[4.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[4.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[4.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[4.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[4.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[4.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[4.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[4.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[4.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[4.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[4.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[4.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[4.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[4.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[4.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[4.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[4.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[4.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[4.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[4.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[4.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[4.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[4.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extensions ['ignore', 'ignore_ament_install']
+[4.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extension 'ignore'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extension 'ignore_ament_install'
+[4.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extensions ['colcon_pkg']
+[4.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extension 'colcon_pkg'
+[4.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extensions ['colcon_meta']
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extension 'colcon_meta'
+[4.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extensions ['ros']
+[4.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extension 'ros'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extensions ['cmake', 'python']
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extension 'cmake'
+[4.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extension 'python'
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extensions ['python_setup_py']
+[4.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy) by extension 'python_setup_py'
+[4.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extensions ['ignore', 'ignore_ament_install']
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extension 'ignore'
+[4.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extension 'ignore_ament_install'
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extensions ['colcon_pkg']
+[4.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extension 'colcon_pkg'
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extensions ['colcon_meta']
+[4.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extension 'colcon_meta'
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extensions ['ros']
+[4.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extension 'ros'
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extensions ['cmake', 'python']
+[4.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extension 'cmake'
+[4.540s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/YDLidar-SDK-master) by extension 'python'
+[4.541s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidarX3_foxy/YDLidar-SDK-master' with type 'cmake' and name 'ydlidar_sdk'
+[4.541s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/build) by extensions ['ignore', 'ignore_ament_install']
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/build) by extension 'ignore'
+[4.542s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/build) ignored
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/install) by extensions ['ignore', 'ignore_ament_install']
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/install) by extension 'ignore'
+[4.543s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/install) ignored
+[4.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/log) by extensions ['ignore', 'ignore_ament_install']
+[4.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/log) by extension 'ignore'
+[4.544s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/log) ignored
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extensions ['ignore', 'ignore_ament_install']
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extension 'ignore'
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extension 'ignore_ament_install'
+[4.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extensions ['colcon_pkg']
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extension 'colcon_pkg'
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extensions ['colcon_meta']
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extension 'colcon_meta'
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extensions ['ros']
+[4.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extension 'ros'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extensions ['cmake', 'python']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extension 'cmake'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extension 'python'
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extensions ['python_setup_py']
+[4.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src) by extension 'python_setup_py'
+[4.548s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extension 'ignore'
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extension 'ignore_ament_install'
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extensions ['colcon_pkg']
+[4.549s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extension 'colcon_pkg'
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extensions ['colcon_meta']
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extension 'colcon_meta'
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extensions ['ros']
+[4.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/openslam_gmapping) by extension 'ros'
+[4.552s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidarX3_foxy/src/openslam_gmapping' with type 'ros.ament_cmake' and name 'openslam_gmapping'
+[4.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extensions ['ignore', 'ignore_ament_install']
+[4.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extension 'ignore'
+[4.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extension 'ignore_ament_install'
+[4.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extensions ['colcon_pkg']
+[4.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extension 'colcon_pkg'
+[4.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extensions ['colcon_meta']
+[4.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extension 'colcon_meta'
+[4.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extensions ['ros']
+[4.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/slam_gmapping) by extension 'ros'
+[4.561s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidarX3_foxy/src/slam_gmapping' with type 'ros.ament_cmake' and name 'slam_gmapping'
+[4.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[4.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extension 'ignore'
+[4.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extension 'ignore_ament_install'
+[4.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extensions ['colcon_pkg']
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extension 'colcon_pkg'
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extensions ['colcon_meta']
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extension 'colcon_meta'
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extensions ['ros']
+[4.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extension 'ros'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extensions ['cmake', 'python']
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extension 'cmake'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extension 'python'
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extensions ['python_setup_py']
+[4.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2) by extension 'python_setup_py'
+[4.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extensions ['ignore', 'ignore_ament_install']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extension 'ignore'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extension 'ignore_ament_install'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extensions ['colcon_pkg']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extension 'colcon_pkg'
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extensions ['colcon_meta']
+[4.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extension 'colcon_meta'
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extensions ['ros']
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extension 'ros'
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extensions ['cmake', 'python']
+[4.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extension 'cmake'
+[4.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extension 'python'
+[4.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extensions ['python_setup_py']
+[4.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch) by extension 'python_setup_py'
+[4.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[4.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extension 'ignore'
+[4.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extension 'ignore_ament_install'
+[4.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extensions ['colcon_pkg']
+[4.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extension 'colcon_pkg'
+[4.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extensions ['colcon_meta']
+[4.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extension 'colcon_meta'
+[4.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extensions ['ros']
+[4.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extension 'ros'
+[4.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extensions ['cmake', 'python']
+[4.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extension 'cmake'
+[4.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extension 'python'
+[4.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extensions ['python_setup_py']
+[4.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/sllidar_ros2/launch/__pycache__) by extension 'python_setup_py'
+[4.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extensions ['ignore', 'ignore_ament_install']
+[4.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extension 'ignore'
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extension 'ignore_ament_install'
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extensions ['colcon_pkg']
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extension 'colcon_pkg'
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extensions ['colcon_meta']
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extension 'colcon_meta'
+[4.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extensions ['ros']
+[4.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master) by extension 'ros'
+[4.576s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[4.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.753s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.754s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.797s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/ubuntu/ros2_delivFoxy/install
+[4.810s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ubuntu/dev_serial_motor/install
+[4.841s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/foxy
+[4.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.722s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_args' from command line to 'None'
+[5.722s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target' from command line to 'None'
+[5.723s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.723s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_cache' from command line to 'False'
+[5.723s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_clean_first' from command line to 'False'
+[5.723s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'cmake_force_configure' from command line to 'False'
+[5.724s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'ament_cmake_args' from command line to 'None'
+[5.724s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_cmake_args' from command line to 'None'
+[5.724s] Level 5:colcon.colcon_core.verb:set package 'articubot_one' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.725s] DEBUG:colcon.colcon_core.verb:Building package 'articubot_one' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/articubot_one', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/articubot_one', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/articubot_one', 'symlink_install': False, 'test_result_base': None}
+[5.737s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_args' from command line to 'None'
+[5.737s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target' from command line to 'None'
+[5.737s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.738s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[5.738s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[5.738s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[5.739s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[5.739s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[5.739s] Level 5:colcon.colcon_core.verb:set package 'openslam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.740s] DEBUG:colcon.colcon_core.verb:Building package 'openslam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/openslam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[5.752s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_args' from command line to 'None'
+[5.752s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_target' from command line to 'None'
+[5.752s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.753s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[5.753s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[5.753s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[5.754s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[5.754s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[5.754s] Level 5:colcon.colcon_core.verb:set package 'robot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.755s] DEBUG:colcon.colcon_core.verb:Building package 'robot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/robot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/robot_localization', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/robot_localization', 'symlink_install': False, 'test_result_base': None}
+[5.766s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[5.767s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[5.767s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.768s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[5.768s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[5.768s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[5.769s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[5.769s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[5.769s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.769s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/serial', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/serial', 'symlink_install': False, 'test_result_base': None}
+[5.781s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[5.781s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[5.782s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.782s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[5.782s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[5.783s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[5.783s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[5.783s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[5.783s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.784s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[5.796s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[5.796s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[5.797s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.797s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[5.797s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[5.798s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[5.798s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[5.798s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[5.799s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.799s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master', 'symlink_install': False, 'test_result_base': None}
+[5.811s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[5.811s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[5.812s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[5.813s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[5.813s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[5.813s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[5.813s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.814s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/YDLidar-SDK-master', 'symlink_install': False, 'test_result_base': None}
+[5.825s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[5.826s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[5.826s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.827s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[5.827s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[5.827s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[5.828s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[5.828s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[5.828s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.829s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[5.840s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[5.841s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[5.842s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[5.843s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.843s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[5.855s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_args' from command line to 'None'
+[5.856s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target' from command line to 'None'
+[5.856s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.856s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_cache' from command line to 'False'
+[5.856s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_clean_first' from command line to 'False'
+[5.857s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'cmake_force_configure' from command line to 'False'
+[5.857s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'ament_cmake_args' from command line to 'None'
+[5.857s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_cmake_args' from command line to 'None'
+[5.857s] Level 5:colcon.colcon_core.verb:set package 'slam_gmapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.858s] DEBUG:colcon.colcon_core.verb:Building package 'slam_gmapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping', 'merge_install': False, 'path': '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping', 'symlink_install': False, 'test_result_base': None}
+[5.866s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.904s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.907s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/openslam_gmapping' with build type 'ament_cmake'
+[5.908s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/openslam_gmapping'
+[5.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.961s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.962s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.056s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/serial' with build type 'ament_cmake'
+[6.059s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/serial'
+[6.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.176s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[6.180s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo_msgs'
+[6.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/articubot_one' with build type 'ament_cmake'
+[6.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/articubot_one'
+[6.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/openslam_gmapping -- -j4 -l4
+[6.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial -- -j4 -l4
+[6.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs -- -j4 -l4
+[6.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/articubot_one -- -j4 -l4
+[7.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/articubot_one -- -j4 -l4
+[8.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/articubot_one
+[8.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial -- -j4 -l4
+[9.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/openslam_gmapping -- -j4 -l4
+[9.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[9.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/articubot_one
+[9.535s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one' for CMake module files
+[9.543s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one' for CMake config files
+[9.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[9.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[9.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[9.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[9.597s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one/bin'
+[9.598s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[9.600s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one/lib/python3.8/site-packages'
+[9.603s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one/bin'
+[9.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.ps1'
+[9.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.dsv'
+[9.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.sh'
+[9.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.bash'
+[9.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.zsh'
+[9.672s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/colcon-core/packages/articubot_one)
+[9.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial
+[9.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/openslam_gmapping
+[10.177s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[10.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial
+[10.237s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial' for CMake module files
+[10.260s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial' for CMake config files
+[10.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[10.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[10.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[10.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[10.349s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/lib'
+[10.372s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/bin'
+[10.374s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/lib/pkgconfig/serial.pc'
+[10.377s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/lib/python3.8/site-packages'
+[10.379s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/bin'
+[10.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.ps1'
+[10.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.dsv'
+[10.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.sh'
+[10.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.bash'
+[10.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.zsh'
+[10.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/serial/share/colcon-core/packages/serial)
+[10.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(articubot_one)
+[10.552s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one' for CMake module files
+[10.570s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one' for CMake config files
+[10.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('articubot_one', 'cmake_prefix_path')
+[10.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.ps1'
+[10.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.dsv'
+[10.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/hook/cmake_prefix_path.sh'
+[10.630s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one/bin'
+[10.631s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one/lib/pkgconfig/articubot_one.pc'
+[10.634s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one/lib/python3.8/site-packages'
+[10.638s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/articubot_one/bin'
+[10.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.ps1'
+[10.664s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.dsv'
+[10.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.sh'
+[10.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.bash'
+[10.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.zsh'
+[10.685s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/articubot_one/share/colcon-core/packages/articubot_one)
+[10.695s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/robot_localization' with build type 'ament_cmake'
+[10.697s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/robot_localization'
+[10.719s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.720s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[10.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/openslam_gmapping
+[10.906s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping' for CMake module files
+[10.915s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping' for CMake config files
+[10.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[10.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[10.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[10.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[10.988s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib'
+[10.991s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/bin'
+[10.993s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[10.997s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/python3.8/site-packages'
+[11.000s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/bin'
+[11.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[11.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[11.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[11.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[11.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[11.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[11.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization
+[11.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[11.346s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial' for CMake module files
+[11.366s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial' for CMake config files
+[11.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[11.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[11.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[11.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[11.436s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/lib'
+[11.437s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/bin'
+[11.439s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/lib/pkgconfig/serial.pc'
+[11.443s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/lib/python3.8/site-packages'
+[11.446s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial/bin'
+[11.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.ps1'
+[11.504s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.dsv'
+[11.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.sh'
+[11.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.bash'
+[11.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.zsh'
+[11.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/serial/share/colcon-core/packages/serial)
+[11.540s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master' with build type 'ament_cmake'
+[11.544s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/ydlidar_ros2_driver-master'
+[11.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver -- -j4 -l4
+[11.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs -- -j4 -l4
+[11.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(openslam_gmapping)
+[11.908s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping' for CMake module files
+[11.918s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping' for CMake config files
+[11.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('openslam_gmapping', 'cmake_prefix_path')
+[11.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.ps1'
+[11.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.dsv'
+[11.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/hook/cmake_prefix_path.sh'
+[11.986s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib'
+[11.988s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/bin'
+[11.989s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/pkgconfig/openslam_gmapping.pc'
+[11.991s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib/python3.8/site-packages'
+[11.994s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/bin'
+[12.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.ps1'
+[12.022s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.dsv'
+[12.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.sh'
+[12.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.bash'
+[12.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/package.zsh'
+[12.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/colcon-core/packages/openslam_gmapping)
+[12.056s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/YDLidar-SDK-master'
+[12.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk': /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk -- -j4 -l4
+[13.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver -- -j4 -l4
+[14.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver
+[14.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk -- -j4 -l4
+[14.817s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[14.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver
+[14.863s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver' for CMake module files
+[14.872s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver' for CMake config files
+[14.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[14.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[14.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[14.909s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[14.915s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib'
+[14.916s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/bin'
+[14.917s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[14.920s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[14.922s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/bin'
+[14.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[14.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[14.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[14.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[14.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[14.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[15.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs
+[15.646s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[15.683s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver' for CMake module files
+[15.697s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver' for CMake config files
+[15.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[15.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[15.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[15.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[15.754s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib'
+[15.755s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/bin'
+[15.756s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[15.761s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib/python3.8/site-packages'
+[15.764s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/bin'
+[15.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[15.829s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[15.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[15.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[15.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[15.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[15.874s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/diffdrive_arduino' with build type 'ament_cmake'
+[15.876s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/diffdrive_arduino'
+[15.913s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.913s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk': /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk
+[16.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino -- -j4 -l4
+[16.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[16.473s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs' for CMake module files
+[16.513s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs' for CMake config files
+[16.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[16.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[16.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[16.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[16.641s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib'
+[16.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[16.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[16.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[16.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[16.709s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/bin'
+[16.711s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[16.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs
+[16.719s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[16.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[16.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[16.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[16.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[16.794s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/bin'
+[16.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[16.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[16.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[16.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[16.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[16.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[16.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[16.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk
+[17.012s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk' for CMake module files
+[17.021s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk' for CMake config files
+[17.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[17.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[17.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[17.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[17.118s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/lib'
+[17.124s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin'
+[17.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[17.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[17.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[17.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[17.187s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[17.190s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/lib/python3.8/site-packages'
+[17.193s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin'
+[17.196s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[17.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[17.228s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[17.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[17.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[17.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[17.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[17.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[17.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[17.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[17.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping' with build type 'ament_cmake'
+[17.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping'
+[17.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/slam_gmapping -- -j4 -l4
+[17.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino -- -j4 -l4
+[18.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino
+[19.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/slam_gmapping -- -j4 -l4
+[19.096s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[19.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino
+[19.146s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino' for CMake module files
+[19.157s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino' for CMake config files
+[19.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[19.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[19.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[19.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[19.208s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib'
+[19.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[19.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[19.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[19.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[19.241s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/bin'
+[19.242s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[19.245s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib/python3.8/site-packages'
+[19.247s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/bin'
+[19.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[19.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[19.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[19.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[19.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[19.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[19.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo_msgs)
+[19.686s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs' for CMake module files
+[19.701s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs' for CMake config files
+[19.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'cmake_prefix_path')
+[19.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.ps1'
+[19.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.dsv'
+[19.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/cmake_prefix_path.sh'
+[19.756s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib'
+[19.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'ld_library_path_lib')
+[19.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.ps1'
+[19.780s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.dsv'
+[19.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/ld_library_path_lib.sh'
+[19.790s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/bin'
+[19.791s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/pkgconfig/serial_motor_demo_msgs.pc'
+[19.794s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages'
+[19.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo_msgs', 'pythonpath')
+[19.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.ps1'
+[19.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.dsv'
+[19.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/hook/pythonpath.sh'
+[19.835s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/bin'
+[19.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.ps1'
+[19.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv'
+[19.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.sh'
+[19.876s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.bash'
+[19.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.zsh'
+[19.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/colcon-core/packages/serial_motor_demo_msgs)
+[19.897s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo' with build type 'ament_python'
+[19.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'ament_prefix_path')
+[19.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.ps1'
+[19.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.dsv'
+[19.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/hook/ament_prefix_path.sh'
+[19.948s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/slam_gmapping
+[20.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffdrive_arduino)
+[20.169s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino' for CMake module files
+[20.179s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino' for CMake config files
+[20.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'cmake_prefix_path')
+[20.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.ps1'
+[20.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.dsv'
+[20.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/cmake_prefix_path.sh'
+[20.228s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib'
+[20.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffdrive_arduino', 'ld_library_path_lib')
+[20.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.ps1'
+[20.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.dsv'
+[20.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/hook/ld_library_path_lib.sh'
+[20.260s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/bin'
+[20.262s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib/pkgconfig/diffdrive_arduino.pc'
+[20.264s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib/python3.8/site-packages'
+[20.267s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/bin'
+[20.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.ps1'
+[20.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv'
+[20.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.sh'
+[20.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.bash'
+[20.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.zsh'
+[20.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/colcon-core/packages/diffdrive_arduino)
+[23.327s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo'
+[23.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[23.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/slam_gmapping
+[23.498s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping' for CMake module files
+[23.508s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping' for CMake config files
+[23.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[23.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[23.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[23.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[23.548s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib'
+[23.549s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/bin'
+[23.550s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[23.553s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib/python3.8/site-packages'
+[23.555s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/bin'
+[23.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[23.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[23.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.sh'
+[23.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.bash'
+[23.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[23.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[24.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_gmapping)
+[24.097s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping' for CMake module files
+[24.111s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping' for CMake config files
+[24.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_gmapping', 'cmake_prefix_path')
+[24.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.ps1'
+[24.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.dsv'
+[24.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/hook/cmake_prefix_path.sh'
+[24.160s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib'
+[24.162s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/bin'
+[24.163s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib/pkgconfig/slam_gmapping.pc'
+[24.166s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib/python3.8/site-packages'
+[24.168s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/bin'
+[24.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.ps1'
+[24.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.dsv'
+[24.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.sh'
+[24.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.bash'
+[24.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.zsh'
+[24.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/colcon-core/packages/slam_gmapping)
+[28.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs PYTHONPATH=/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/prefix_override:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:ubuntu/quick2wire-python-api:/home/ubuntu/imugy85/src/gy85/i2clibraries /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/build
+[33.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs PYTHONPATH=/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/prefix_override:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:ubuntu/quick2wire-python-api:/home/ubuntu/imugy85/src/gy85/i2clibraries /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/build
+[33.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs PYTHONPATH=/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/prefix_override:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:ubuntu/quick2wire-python-api:/home/ubuntu/imugy85/src/gy85/i2clibraries /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/build install --record /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[37.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/src/serial_motor_demo/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs PYTHONPATH=/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/prefix_override:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:ubuntu/quick2wire-python-api:/home/ubuntu/imugy85/src/gy85/i2clibraries /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/build install --record /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[37.521s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo' for CMake module files
+[37.527s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo' for CMake config files
+[37.536s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib'
+[37.537s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/bin'
+[37.538s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/pkgconfig/serial_motor_demo.pc'
+[37.540s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages'
+[37.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_motor_demo', 'pythonpath')
+[37.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.ps1'
+[37.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.dsv'
+[37.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/hook/pythonpath.sh'
+[37.574s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/bin'
+[37.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_motor_demo)
+[37.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/package.ps1'
+[37.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/package.dsv'
+[37.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/package.sh'
+[37.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/package.bash'
+[37.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/serial_motor_demo/package.zsh'
+[37.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/share/colcon-core/packages/serial_motor_demo)
+[55.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_delivFoxy/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization
+[55.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_localization)
+[55.409s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/robot_localization' for CMake module files
+[55.415s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/robot_localization' for CMake config files
+[55.418s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/robot_localization/bin'
+[55.420s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/robot_localization/lib/pkgconfig/robot_localization.pc'
+[55.422s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/robot_localization/lib/python3.8/site-packages'
+[55.424s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_delivFoxy/install/robot_localization/bin'
+[55.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/robot_localization/share/robot_localization/package.ps1'
+[55.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_delivFoxy/install/robot_localization/share/robot_localization/package.dsv'
+[55.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/robot_localization/share/robot_localization/package.sh'
+[55.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/robot_localization/share/robot_localization/package.bash'
+[55.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_delivFoxy/install/robot_localization/share/robot_localization/package.zsh'
+[55.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_delivFoxy/install/robot_localization/share/colcon-core/packages/robot_localization)
+[55.463s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[55.466s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[55.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[55.468s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[55.528s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[55.529s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[55.530s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[55.628s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[55.645s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_delivFoxy/install/local_setup.ps1'
+[55.654s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_delivFoxy/install/_local_setup_util_ps1.py'
+[55.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_delivFoxy/install/setup.ps1'
+[55.688s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_delivFoxy/install/local_setup.sh'
+[55.694s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_delivFoxy/install/_local_setup_util_sh.py'
+[55.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_delivFoxy/install/setup.sh'
+[55.721s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_delivFoxy/install/local_setup.bash'
+[55.726s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_delivFoxy/install/setup.bash'
+[55.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_delivFoxy/install/local_setup.zsh'
+[55.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_delivFoxy/install/setup.zsh'

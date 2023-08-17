@@ -1,0 +1,34 @@
+[0.240s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial -- -j4 -l4
+[0.872s] [ 28%] Built target serial
+[0.908s] [ 42%] Built target gtest
+[0.926s] [ 57%] Built target gtest_main
+[1.113s] [ 71%] Built target serial-test-timer
+[1.203s] [ 85%] Built target serial_example
+[1.213s] [100%] Built target serial-test
+[1.356s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial -- -j4 -l4
+[1.936s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial
+[2.034s] -- Install configuration: ""
+[2.050s] -- Execute custom install script
+[2.061s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/lib/libserial.a
+[2.067s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/include/serial/serial.h
+[2.070s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/include/serial/v8stdint.h
+[2.095s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/library_path.sh
+[2.096s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/library_path.dsv
+[2.097s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.114s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.118s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.126s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.131s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/path.sh
+[2.135s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/path.dsv
+[2.140s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.bash
+[2.144s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.sh
+[2.157s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.zsh
+[2.159s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.dsv
+[2.164s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.dsv
+[2.259s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/packages/serial
+[2.262s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.269s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.284s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/serialConfig.cmake
+[2.284s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.285s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.xml
+[2.501s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial

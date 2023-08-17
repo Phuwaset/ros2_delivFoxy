@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk': /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk
+Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk' returned '0': /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/YDLidar-SDK-master -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk
+Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk': /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk -- -j4 -l4
+Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk -- -j4 -l4
+Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk': /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk
+Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/ydlidar_sdk

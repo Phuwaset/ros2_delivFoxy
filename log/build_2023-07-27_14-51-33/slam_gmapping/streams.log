@@ -1,0 +1,60 @@
+[0.124s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/slam_gmapping
+[0.255s]  -fuse-ld=lld -Wl,--disable-new-dtags
+[0.256s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.579s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.383s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.428s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.683s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.460s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.776s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.926s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[6.095s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[6.536s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.179s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[9.257s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[9.486s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[9.889s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[10.298s] -- Found openslam_gmapping: 0.1.2 (/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[10.313s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.935s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.937s] -- Configured cppcheck include dirs: /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping/include
+[10.937s] -- Configured cppcheck exclude dirs and/or files: 
+[10.941s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.945s] -- Added test 'lint_cmake' to check CMake code style
+[10.949s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.964s] -- Added test 'uncrustify' to check C / C++ code style
+[10.965s] -- Configured uncrustify additional arguments: 
+[10.967s] -- Added test 'xmllint' to check XML markup files
+[11.022s] -- Configuring done
+[11.242s] -- Generating done
+[11.246s] -- Build files have been written to: /home/ubuntu/ros2_delivFoxy/build/slam_gmapping
+[11.312s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/ydlidarX3_foxy/src/slam_gmapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/slam_gmapping
+[11.316s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/slam_gmapping -- -j4 -l4
+[12.037s] [ 50%] Built target transform
+[12.055s] [100%] Built target slam_gmapping
+[12.148s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/slam_gmapping -- -j4 -l4
+[12.465s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/slam_gmapping
+[12.569s] -- Install configuration: ""
+[12.570s] -- Execute custom install script
+[12.573s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[12.577s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/lib/slam_gmapping/transform
+[12.581s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/launch/gmapping_launch.py
+[12.583s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[12.585s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[12.587s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[12.589s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[12.591s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[12.593s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[12.594s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[12.602s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[12.603s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[12.606s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[12.606s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[12.607s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.dsv
+[12.668s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[12.671s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[12.673s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[12.686s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/slam_gmapping/share/slam_gmapping/package.xml
+[12.800s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/slam_gmapping

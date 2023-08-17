@@ -1,0 +1,33 @@
+[0.320s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver -- -j4 -l4
+[1.515s] [ 50%] Built target ydlidar_ros2_driver_node
+[1.529s] [100%] Built target ydlidar_ros2_driver_client
+[1.659s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver -- -j4 -l4
+[2.119s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver
+[2.251s] -- Install configuration: ""
+[2.258s] -- Execute custom install script
+[2.272s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[2.282s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[2.298s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch.cpython-36.pyc
+[2.307s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/__pycache__/ydlidar_launch_view.cpython-36.pyc
+[2.316s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[2.323s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[2.333s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_view_launch.py
+[2.345s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[2.356s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[2.371s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[2.379s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[2.385s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[2.393s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[2.397s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[2.409s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[2.423s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[2.432s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[2.440s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[2.456s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[2.461s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[2.465s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[2.643s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[2.649s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[2.659s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[2.661s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[2.693s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/ydlidar_ros2_driver

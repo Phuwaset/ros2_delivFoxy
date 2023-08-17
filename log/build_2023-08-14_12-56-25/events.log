@@ -1,0 +1,518 @@
+[0.000000] (-) TimerEvent: {}
+[0.002124] (-) JobUnselected: {'identifier': 'articubot_one'}
+[0.002841] (-) JobUnselected: {'identifier': 'diffdrive_arduino'}
+[0.004511] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.005798] (-) JobUnselected: {'identifier': 'serial'}
+[0.008531] (-) JobUnselected: {'identifier': 'serial_motor_demo'}
+[0.009339] (-) JobUnselected: {'identifier': 'serial_motor_demo_msgs'}
+[0.013275] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.017272] (-) JobUnselected: {'identifier': 'ydlidar_ros2_driver'}
+[0.017732] (-) JobUnselected: {'identifier': 'ydlidar_sdk'}
+[0.018138] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict()}
+[0.018617] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.099512] (-) TimerEvent: {}
+[0.186147] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.190689] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/ros2_delivFoxy/src/robot_localization', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization'], 'cwd': '/home/ubuntu/ros2_delivFoxy/build/robot_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.137.5 42434 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib:/home/ubuntu/ros2_delivFoxy/install/serial/lib:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping/lib:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros2_delivFoxy/src'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install:/home/ubuntu/dev_serial_motor/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/ros2_delivFoxy/build/robot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.137.5 42434 192.168.137.36 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:ubuntu/quick2wire-python-api:/home/ubuntu/imugy85/src/gy85/i2clibraries'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy')]), 'shell': False}
+[0.200055] (-) TimerEvent: {}
+[0.301899] (-) TimerEvent: {}
+[0.403859] (-) TimerEvent: {}
+[0.505275] (-) TimerEvent: {}
+[0.606706] (-) TimerEvent: {}
+[0.708563] (-) TimerEvent: {}
+[0.809991] (-) TimerEvent: {}
+[0.832889] (robot_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.910282] (-) TimerEvent: {}
+[1.011738] (-) TimerEvent: {}
+[1.113435] (-) TimerEvent: {}
+[1.215135] (-) TimerEvent: {}
+[1.316843] (-) TimerEvent: {}
+[1.418468] (-) TimerEvent: {}
+[1.426021] (robot_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.482984] (robot_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.518754] (-) TimerEvent: {}
+[1.620324] (-) TimerEvent: {}
+[1.721618] (-) TimerEvent: {}
+[1.822609] (-) TimerEvent: {}
+[1.924114] (-) TimerEvent: {}
+[2.025544] (-) TimerEvent: {}
+[2.126947] (-) TimerEvent: {}
+[2.162567] (robot_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.171071] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.227228] (-) TimerEvent: {}
+[2.328973] (-) TimerEvent: {}
+[2.430371] (-) TimerEvent: {}
+[2.532485] (-) TimerEvent: {}
+[2.634108] (-) TimerEvent: {}
+[2.735518] (-) TimerEvent: {}
+[2.836955] (-) TimerEvent: {}
+[2.894447] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.937175] (-) TimerEvent: {}
+[2.998623] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.001695] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.027035] (robot_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.037452] (-) TimerEvent: {}
+[3.138802] (-) TimerEvent: {}
+[3.240194] (-) TimerEvent: {}
+[3.341573] (-) TimerEvent: {}
+[3.442892] (-) TimerEvent: {}
+[3.544355] (-) TimerEvent: {}
+[3.645813] (-) TimerEvent: {}
+[3.747507] (-) TimerEvent: {}
+[3.849290] (robot_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.850685] (-) TimerEvent: {}
+[3.859248] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.951002] (-) TimerEvent: {}
+[4.052559] (-) TimerEvent: {}
+[4.154226] (-) TimerEvent: {}
+[4.255551] (-) TimerEvent: {}
+[4.357013] (-) TimerEvent: {}
+[4.458361] (-) TimerEvent: {}
+[4.560161] (-) TimerEvent: {}
+[4.661722] (-) TimerEvent: {}
+[4.694126] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.739787] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.741828] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.745010] (robot_localization) StdoutLine: {'line': b"-- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.\n"}
+[4.761839] (-) TimerEvent: {}
+[4.782051] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.862152] (-) TimerEvent: {}
+[4.963547] (-) TimerEvent: {}
+[5.064997] (-) TimerEvent: {}
+[5.166310] (-) TimerEvent: {}
+[5.252108] (robot_localization) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.254046] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.266618] (-) TimerEvent: {}
+[5.368757] (-) TimerEvent: {}
+[5.470439] (-) TimerEvent: {}
+[5.571695] (-) TimerEvent: {}
+[5.673062] (-) TimerEvent: {}
+[5.774398] (-) TimerEvent: {}
+[5.875685] (-) TimerEvent: {}
+[5.977002] (-) TimerEvent: {}
+[6.078593] (-) TimerEvent: {}
+[6.179976] (-) TimerEvent: {}
+[6.281231] (-) TimerEvent: {}
+[6.382526] (-) TimerEvent: {}
+[6.483888] (-) TimerEvent: {}
+[6.585402] (-) TimerEvent: {}
+[6.687509] (-) TimerEvent: {}
+[6.788870] (-) TimerEvent: {}
+[6.890211] (-) TimerEvent: {}
+[6.991614] (-) TimerEvent: {}
+[7.092947] (-) TimerEvent: {}
+[7.194334] (-) TimerEvent: {}
+[7.295620] (-) TimerEvent: {}
+[7.397103] (-) TimerEvent: {}
+[7.467873] (robot_localization) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.497219] (-) TimerEvent: {}
+[7.598102] (-) TimerEvent: {}
+[7.699449] (-) TimerEvent: {}
+[7.800789] (-) TimerEvent: {}
+[7.902114] (-) TimerEvent: {}
+[8.003503] (-) TimerEvent: {}
+[8.104960] (-) TimerEvent: {}
+[8.206283] (-) TimerEvent: {}
+[8.307656] (-) TimerEvent: {}
+[8.310675] (robot_localization) StdoutLine: {'line': b'-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)\n'}
+[8.393103] (robot_localization) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[8.407840] (-) TimerEvent: {}
+[8.509146] (-) TimerEvent: {}
+[8.610543] (-) TimerEvent: {}
+[8.711906] (-) TimerEvent: {}
+[8.813282] (-) TimerEvent: {}
+[8.914687] (-) TimerEvent: {}
+[9.016039] (-) TimerEvent: {}
+[9.117372] (-) TimerEvent: {}
+[9.218746] (-) TimerEvent: {}
+[9.320260] (-) TimerEvent: {}
+[9.421686] (-) TimerEvent: {}
+[9.523067] (-) TimerEvent: {}
+[9.589455] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.623323] (-) TimerEvent: {}
+[9.724807] (-) TimerEvent: {}
+[9.826087] (-) TimerEvent: {}
+[9.828451] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.926363] (-) TimerEvent: {}
+[10.027778] (-) TimerEvent: {}
+[10.129278] (-) TimerEvent: {}
+[10.230565] (-) TimerEvent: {}
+[10.331973] (-) TimerEvent: {}
+[10.433371] (-) TimerEvent: {}
+[10.534716] (-) TimerEvent: {}
+[10.636067] (-) TimerEvent: {}
+[10.737011] (-) TimerEvent: {}
+[10.838398] (-) TimerEvent: {}
+[10.939700] (-) TimerEvent: {}
+[11.041153] (-) TimerEvent: {}
+[11.142432] (-) TimerEvent: {}
+[11.243748] (-) TimerEvent: {}
+[11.345242] (-) TimerEvent: {}
+[11.446780] (-) TimerEvent: {}
+[11.522374] (robot_localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[11.547116] (-) TimerEvent: {}
+[11.648560] (-) TimerEvent: {}
+[11.749892] (-) TimerEvent: {}
+[11.851226] (-) TimerEvent: {}
+[11.952749] (-) TimerEvent: {}
+[12.054196] (-) TimerEvent: {}
+[12.155540] (-) TimerEvent: {}
+[12.256990] (-) TimerEvent: {}
+[12.277110] (robot_localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[12.357123] (-) TimerEvent: {}
+[12.458243] (-) TimerEvent: {}
+[12.559613] (-) TimerEvent: {}
+[12.661058] (-) TimerEvent: {}
+[12.762722] (-) TimerEvent: {}
+[12.864022] (-) TimerEvent: {}
+[12.965369] (-) TimerEvent: {}
+[13.066714] (-) TimerEvent: {}
+[13.168106] (-) TimerEvent: {}
+[13.269501] (-) TimerEvent: {}
+[13.370830] (-) TimerEvent: {}
+[13.472385] (-) TimerEvent: {}
+[13.573744] (-) TimerEvent: {}
+[13.675168] (-) TimerEvent: {}
+[13.776484] (-) TimerEvent: {}
+[13.877972] (-) TimerEvent: {}
+[13.979332] (-) TimerEvent: {}
+[14.007507] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.079615] (-) TimerEvent: {}
+[14.181336] (-) TimerEvent: {}
+[14.282663] (-) TimerEvent: {}
+[14.384062] (-) TimerEvent: {}
+[14.485534] (-) TimerEvent: {}
+[14.587628] (-) TimerEvent: {}
+[14.689060] (-) TimerEvent: {}
+[14.790351] (-) TimerEvent: {}
+[14.891739] (-) TimerEvent: {}
+[14.993037] (-) TimerEvent: {}
+[15.032464] (robot_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[15.054012] (robot_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.063827] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.093317] (-) TimerEvent: {}
+[15.194685] (-) TimerEvent: {}
+[15.296263] (-) TimerEvent: {}
+[15.397678] (-) TimerEvent: {}
+[15.499186] (-) TimerEvent: {}
+[15.600590] (-) TimerEvent: {}
+[15.701992] (-) TimerEvent: {}
+[15.803303] (-) TimerEvent: {}
+[15.864332] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.868664] (robot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[15.903586] (-) TimerEvent: {}
+[16.005104] (-) TimerEvent: {}
+[16.106529] (-) TimerEvent: {}
+[16.208106] (-) TimerEvent: {}
+[16.309450] (-) TimerEvent: {}
+[16.410925] (-) TimerEvent: {}
+[16.512289] (-) TimerEvent: {}
+[16.613691] (-) TimerEvent: {}
+[16.684693] (robot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[16.686737] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[16.714090] (-) TimerEvent: {}
+[16.815456] (-) TimerEvent: {}
+[16.916867] (-) TimerEvent: {}
+[17.018213] (-) TimerEvent: {}
+[17.120033] (-) TimerEvent: {}
+[17.221511] (-) TimerEvent: {}
+[17.317843] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[17.320022] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[17.321686] (-) TimerEvent: {}
+[17.422872] (-) TimerEvent: {}
+[17.524376] (-) TimerEvent: {}
+[17.625846] (-) TimerEvent: {}
+[17.727071] (-) TimerEvent: {}
+[17.828303] (-) TimerEvent: {}
+[17.929668] (-) TimerEvent: {}
+[18.031080] (-) TimerEvent: {}
+[18.108941] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[18.118371] (robot_localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[18.131470] (-) TimerEvent: {}
+[18.232888] (-) TimerEvent: {}
+[18.334623] (-) TimerEvent: {}
+[18.436029] (-) TimerEvent: {}
+[18.537441] (-) TimerEvent: {}
+[18.639078] (-) TimerEvent: {}
+[18.740415] (-) TimerEvent: {}
+[18.841734] (-) TimerEvent: {}
+[18.943025] (-) TimerEvent: {}
+[19.044510] (-) TimerEvent: {}
+[19.145833] (-) TimerEvent: {}
+[19.247320] (-) TimerEvent: {}
+[19.349630] (-) TimerEvent: {}
+[19.450971] (-) TimerEvent: {}
+[19.552529] (-) TimerEvent: {}
+[19.653938] (-) TimerEvent: {}
+[19.755327] (-) TimerEvent: {}
+[19.856682] (-) TimerEvent: {}
+[19.957583] (-) TimerEvent: {}
+[20.059039] (-) TimerEvent: {}
+[20.062746] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)\n'}
+[20.159319] (-) TimerEvent: {}
+[20.260795] (-) TimerEvent: {}
+[20.362134] (-) TimerEvent: {}
+[20.463529] (-) TimerEvent: {}
+[20.497488] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)\n'}
+[20.563811] (-) TimerEvent: {}
+[20.665184] (-) TimerEvent: {}
+[20.766562] (-) TimerEvent: {}
+[20.826266] (robot_localization) StdoutLine: {'line': b'-- Found geographic_msgs: 1.0.4 (/opt/ros/foxy/share/geographic_msgs/cmake)\n'}
+[20.866791] (-) TimerEvent: {}
+[20.968199] (-) TimerEvent: {}
+[21.069521] (-) TimerEvent: {}
+[21.170826] (-) TimerEvent: {}
+[21.272212] (-) TimerEvent: {}
+[21.373591] (-) TimerEvent: {}
+[21.474967] (-) TimerEvent: {}
+[21.576381] (-) TimerEvent: {}
+[21.677804] (-) TimerEvent: {}
+[21.779185] (-) TimerEvent: {}
+[21.880672] (-) TimerEvent: {}
+[21.982170] (-) TimerEvent: {}
+[22.083509] (-) TimerEvent: {}
+[22.185065] (-) TimerEvent: {}
+[22.286778] (-) TimerEvent: {}
+[22.388352] (-) TimerEvent: {}
+[22.489784] (-) TimerEvent: {}
+[22.584275] (robot_localization) StdoutLine: {'line': b'-- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[22.590052] (-) TimerEvent: {}
+[22.674790] (robot_localization) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[22.690329] (-) TimerEvent: {}
+[22.791771] (-) TimerEvent: {}
+[22.893105] (-) TimerEvent: {}
+[22.994443] (-) TimerEvent: {}
+[23.095884] (-) TimerEvent: {}
+[23.197262] (-) TimerEvent: {}
+[23.298164] (-) TimerEvent: {}
+[23.342194] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[23.398722] (-) TimerEvent: {}
+[23.500916] (-) TimerEvent: {}
+[23.599038] (robot_localization) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[23.601303] (-) TimerEvent: {}
+[23.702549] (-) TimerEvent: {}
+[23.804755] (-) TimerEvent: {}
+[23.906095] (-) TimerEvent: {}
+[24.008118] (-) TimerEvent: {}
+[24.109404] (-) TimerEvent: {}
+[24.210825] (-) TimerEvent: {}
+[24.312201] (-) TimerEvent: {}
+[24.413481] (-) TimerEvent: {}
+[24.426509] (robot_localization) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[24.513870] (-) TimerEvent: {}
+[24.592830] (robot_localization) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[24.614111] (-) TimerEvent: {}
+[24.715421] (-) TimerEvent: {}
+[24.810256] (robot_localization) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[24.815591] (-) TimerEvent: {}
+[24.917072] (-) TimerEvent: {}
+[25.018507] (-) TimerEvent: {}
+[25.120091] (-) TimerEvent: {}
+[25.221505] (-) TimerEvent: {}
+[25.322823] (-) TimerEvent: {}
+[25.424370] (-) TimerEvent: {}
+[25.525700] (-) TimerEvent: {}
+[25.626988] (-) TimerEvent: {}
+[25.728600] (-) TimerEvent: {}
+[25.829922] (-) TimerEvent: {}
+[25.931294] (-) TimerEvent: {}
+[26.032737] (-) TimerEvent: {}
+[26.134089] (-) TimerEvent: {}
+[26.235446] (-) TimerEvent: {}
+[26.336903] (-) TimerEvent: {}
+[26.438209] (-) TimerEvent: {}
+[26.539575] (-) TimerEvent: {}
+[26.640924] (-) TimerEvent: {}
+[26.741783] (-) TimerEvent: {}
+[26.843065] (-) TimerEvent: {}
+[26.944523] (-) TimerEvent: {}
+[27.045839] (-) TimerEvent: {}
+[27.147892] (-) TimerEvent: {}
+[27.249320] (-) TimerEvent: {}
+[27.350725] (-) TimerEvent: {}
+[27.452129] (-) TimerEvent: {}
+[27.554513] (-) TimerEvent: {}
+[27.655882] (-) TimerEvent: {}
+[27.757302] (-) TimerEvent: {}
+[27.858845] (-) TimerEvent: {}
+[27.960286] (-) TimerEvent: {}
+[28.061621] (-) TimerEvent: {}
+[28.162977] (-) TimerEvent: {}
+[28.264386] (-) TimerEvent: {}
+[28.365687] (-) TimerEvent: {}
+[28.467069] (-) TimerEvent: {}
+[28.568518] (-) TimerEvent: {}
+[28.669869] (-) TimerEvent: {}
+[28.771219] (-) TimerEvent: {}
+[28.826367] (robot_localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[28.871517] (-) TimerEvent: {}
+[28.969658] (robot_localization) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[28.971687] (-) TimerEvent: {}
+[29.072957] (-) TimerEvent: {}
+[29.174276] (-) TimerEvent: {}
+[29.275534] (-) TimerEvent: {}
+[29.376852] (-) TimerEvent: {}
+[29.428944] (robot_localization) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  \n'}
+[29.477153] (-) TimerEvent: {}
+[29.503491] (robot_localization) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)\n'}
+[29.505521] (robot_localization) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[29.529000] (robot_localization) StdoutLine: {'line': b'-- Found GeographicLib: /usr/lib/aarch64-linux-gnu  \n'}
+[29.577539] (-) TimerEvent: {}
+[29.679096] (-) TimerEvent: {}
+[29.780380] (-) TimerEvent: {}
+[29.807897] (robot_localization) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[29.880626] (-) TimerEvent: {}
+[29.981972] (-) TimerEvent: {}
+[30.083280] (-) TimerEvent: {}
+[30.184578] (-) TimerEvent: {}
+[30.285927] (-) TimerEvent: {}
+[30.387348] (-) TimerEvent: {}
+[30.488770] (-) TimerEvent: {}
+[30.590088] (-) TimerEvent: {}
+[30.691405] (-) TimerEvent: {}
+[30.792746] (-) TimerEvent: {}
+[30.894102] (-) TimerEvent: {}
+[30.995516] (-) TimerEvent: {}
+[31.096946] (-) TimerEvent: {}
+[31.198386] (-) TimerEvent: {}
+[31.299811] (-) TimerEvent: {}
+[31.401252] (-) TimerEvent: {}
+[31.502570] (-) TimerEvent: {}
+[31.603795] (-) TimerEvent: {}
+[31.705282] (-) TimerEvent: {}
+[31.806648] (-) TimerEvent: {}
+[31.908120] (-) TimerEvent: {}
+[32.009395] (-) TimerEvent: {}
+[32.110735] (-) TimerEvent: {}
+[32.212113] (-) TimerEvent: {}
+[32.313493] (-) TimerEvent: {}
+[32.414869] (-) TimerEvent: {}
+[32.516268] (-) TimerEvent: {}
+[32.585377] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[32.616399] (-) TimerEvent: {}
+[32.617251] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[32.675433] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[32.716703] (-) TimerEvent: {}
+[32.755147] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[32.816964] (-) TimerEvent: {}
+[32.918366] (-) TimerEvent: {}
+[33.022918] (-) TimerEvent: {}
+[33.124561] (-) TimerEvent: {}
+[33.225919] (-) TimerEvent: {}
+[33.327800] (-) TimerEvent: {}
+[33.429233] (-) TimerEvent: {}
+[33.530659] (-) TimerEvent: {}
+[33.632149] (-) TimerEvent: {}
+[33.733519] (-) TimerEvent: {}
+[33.834775] (-) TimerEvent: {}
+[33.936206] (-) TimerEvent: {}
+[34.037540] (-) TimerEvent: {}
+[34.138879] (-) TimerEvent: {}
+[34.240358] (-) TimerEvent: {}
+[34.341679] (-) TimerEvent: {}
+[34.442978] (-) TimerEvent: {}
+[34.544386] (-) TimerEvent: {}
+[34.645805] (-) TimerEvent: {}
+[34.747238] (-) TimerEvent: {}
+[34.848499] (-) TimerEvent: {}
+[34.949850] (-) TimerEvent: {}
+[35.051398] (-) TimerEvent: {}
+[35.153016] (-) TimerEvent: {}
+[35.254516] (-) TimerEvent: {}
+[35.355888] (-) TimerEvent: {}
+[35.457123] (-) TimerEvent: {}
+[35.558015] (-) TimerEvent: {}
+[35.659455] (-) TimerEvent: {}
+[35.760932] (-) TimerEvent: {}
+[35.862241] (-) TimerEvent: {}
+[35.963600] (-) TimerEvent: {}
+[36.065053] (-) TimerEvent: {}
+[36.166480] (-) TimerEvent: {}
+[36.267898] (-) TimerEvent: {}
+[36.369270] (-) TimerEvent: {}
+[36.470681] (-) TimerEvent: {}
+[36.572076] (-) TimerEvent: {}
+[36.673392] (-) TimerEvent: {}
+[36.774828] (-) TimerEvent: {}
+[36.876201] (-) TimerEvent: {}
+[36.977686] (-) TimerEvent: {}
+[37.079008] (-) TimerEvent: {}
+[37.180489] (-) TimerEvent: {}
+[37.281864] (-) TimerEvent: {}
+[37.383317] (-) TimerEvent: {}
+[37.484869] (-) TimerEvent: {}
+[37.586742] (-) TimerEvent: {}
+[37.688270] (-) TimerEvent: {}
+[37.789654] (-) TimerEvent: {}
+[37.890991] (-) TimerEvent: {}
+[37.973842] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[37.991296] (-) TimerEvent: {}
+[38.092703] (-) TimerEvent: {}
+[38.194136] (-) TimerEvent: {}
+[38.295464] (-) TimerEvent: {}
+[38.397731] (-) TimerEvent: {}
+[38.499159] (-) TimerEvent: {}
+[38.600539] (-) TimerEvent: {}
+[38.701837] (-) TimerEvent: {}
+[38.803258] (-) TimerEvent: {}
+[38.904705] (-) TimerEvent: {}
+[39.006153] (-) TimerEvent: {}
+[39.107504] (-) TimerEvent: {}
+[39.208883] (-) TimerEvent: {}
+[39.310186] (-) TimerEvent: {}
+[39.411565] (-) TimerEvent: {}
+[39.512968] (-) TimerEvent: {}
+[39.614403] (-) TimerEvent: {}
+[39.715850] (-) TimerEvent: {}
+[39.817211] (-) TimerEvent: {}
+[39.918562] (-) TimerEvent: {}
+[39.949882] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[40.018831] (-) TimerEvent: {}
+[40.120423] (-) TimerEvent: {}
+[40.221819] (-) TimerEvent: {}
+[40.323135] (-) TimerEvent: {}
+[40.382282] (robot_localization) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[40.423429] (-) TimerEvent: {}
+[40.453268] (robot_localization) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[40.523690] (-) TimerEvent: {}
+[40.625105] (-) TimerEvent: {}
+[40.726264] (-) TimerEvent: {}
+[40.733159] (robot_localization) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[40.734112] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[40.734664] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[40.735149] (robot_localization) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[40.826525] (-) TimerEvent: {}
+[40.928129] (-) TimerEvent: {}
+[41.029524] (-) TimerEvent: {}
+[41.053817] (robot_localization) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[41.129783] (-) TimerEvent: {}
+[41.231147] (-) TimerEvent: {}
+[41.332557] (-) TimerEvent: {}
+[41.433894] (-) TimerEvent: {}
+[41.535228] (-) TimerEvent: {}
+[41.636620] (-) TimerEvent: {}
+[41.737855] (-) TimerEvent: {}
+[41.839201] (-) TimerEvent: {}
+[41.940502] (-) TimerEvent: {}
+[42.041816] (-) TimerEvent: {}
+[42.143198] (-) TimerEvent: {}
+[42.244610] (-) TimerEvent: {}
+[42.345963] (-) TimerEvent: {}
+[42.447340] (-) TimerEvent: {}
+[42.481431] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[42.547613] (-) TimerEvent: {}
+[42.563247] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[42.632412] (robot_localization) StderrLine: {'line': b'CMake Error at CMakeLists.txt:77 (rosidl_get_typesupport_target):\n'}
+[42.634107] (robot_localization) StderrLine: {'line': b'  Unknown CMake command "rosidl_get_typesupport_target".\n'}
+[42.635091] (robot_localization) StderrLine: {'line': b'\n'}
+[42.636052] (robot_localization) StderrLine: {'line': b'\n'}
+[42.647805] (-) TimerEvent: {}
+[42.718285] (robot_localization) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[42.720652] (robot_localization) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_delivFoxy/build/robot_localization/CMakeFiles/CMakeOutput.log".\n'}
+[42.721732] (robot_localization) StdoutLine: {'line': b'See also "/home/ubuntu/ros2_delivFoxy/build/robot_localization/CMakeFiles/CMakeError.log".\n'}
+[42.748223] (-) TimerEvent: {}
+[42.817596] (robot_localization) CommandEnded: {'returncode': 1}
+[42.848690] (-) TimerEvent: {}
+[42.950946] (-) TimerEvent: {}
+[43.057825] (-) TimerEvent: {}
+[43.102840] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 1}
+[43.110713] (-) EventReactorShutdown: {}

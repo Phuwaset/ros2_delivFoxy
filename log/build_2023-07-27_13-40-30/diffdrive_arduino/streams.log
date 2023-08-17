@@ -1,0 +1,54 @@
+[0.267s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/control_ros2/install/diffdrive_arduino:/home/ubuntu/control_ros2/install/ros2_control_demos:/home/ubuntu/control_ros2/install/ros2_control_demo_bringup:/home/ubuntu/control_ros2/install/rrbot_description:/home/ubuntu/control_ros2/install/ros2_control_demo_hardware:/home/ubuntu/control_ros2/install/diffbot_description:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino
+[1.014s] -- The C compiler identification is GNU 9.4.0
+[1.773s] -- The CXX compiler identification is GNU 9.4.0
+[1.830s] -- Check for working C compiler: /usr/bin/cc
+[2.854s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.869s] -- Detecting C compiler ABI info
+[3.926s] -- Detecting C compiler ABI info - done
+[4.012s] -- Detecting C compile features
+[4.014s] -- Detecting C compile features - done
+[4.036s] -- Check for working CXX compiler: /usr/bin/c++
+[5.185s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.198s] -- Detecting CXX compiler ABI info
+[6.483s] -- Detecting CXX compiler ABI info - done
+[6.608s] -- Detecting CXX compile features
+[6.624s] -- Detecting CXX compile features - done
+[6.758s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.289s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.440s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.308s] -- Found serial: 1.2.1 (/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake)
+[12.435s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[13.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.621s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.892s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[16.638s] -- Found FastRTPS: /opt/ros/foxy/include  
+[18.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.332s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[27.147s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[27.173s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.183s] -- Looking for pthread.h
+[28.247s] -- Looking for pthread.h - found
+[28.252s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[29.493s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[29.494s] -- Looking for pthread_create in pthreads
+[30.267s] -- Looking for pthread_create in pthreads - not found
+[30.270s] -- Looking for pthread_create in pthread
+[31.174s] -- Looking for pthread_create in pthread - found
+[31.175s] -- Found Threads: TRUE  
+[39.036s] -- Configuring done
+[39.656s] -- Generating done
+[39.683s] -- Build files have been written to: /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino
+[39.767s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/control_ros2/install/diffdrive_arduino:/home/ubuntu/control_ros2/install/ros2_control_demos:/home/ubuntu/control_ros2/install/ros2_control_demo_bringup:/home/ubuntu/control_ros2/install/rrbot_description:/home/ubuntu/control_ros2/install/ros2_control_demo_hardware:/home/ubuntu/control_ros2/install/diffbot_description:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino
+[39.778s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/control_ros2/install/diffdrive_arduino:/home/ubuntu/control_ros2/install/ros2_control_demos:/home/ubuntu/control_ros2/install/ros2_control_demo_bringup:/home/ubuntu/control_ros2/install/rrbot_description:/home/ubuntu/control_ros2/install/ros2_control_demo_hardware:/home/ubuntu/control_ros2/install/diffbot_description:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino -- -j4 -l4
+[40.351s] [35m[1mScanning dependencies of target fake_robot[0m
+[41.113s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[69.721s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[72.915s] [ 42%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[75.595s] [ 42%] Built target fake_robot
+[75.716s] [35m[1mScanning dependencies of target diffdrive_arduino[0m
+[76.741s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[98.104s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[458.463s] make[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:89: CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o] Interrupt
+[458.585s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/diffdrive_arduino.dir/all] Interrupt
+[458.586s] make: *** [Makefile:141: all] Interrupt

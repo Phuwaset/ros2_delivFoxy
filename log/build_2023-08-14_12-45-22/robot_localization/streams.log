@@ -1,0 +1,62 @@
+[0.460s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization
+[0.781s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.787s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.195s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.123s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[6.129s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[7.601s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.929s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[10.029s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[10.810s] -- Found FastRTPS: /opt/ros/foxy/include  
+[12.865s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.071s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[14.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.117s] -- Looking for pthread.h
+[15.034s] -- Looking for pthread.h - found
+[15.038s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.972s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.974s] -- Looking for pthread_create in pthreads
+[18.104s] -- Looking for pthread_create in pthreads - not found
+[18.105s] -- Looking for pthread_create in pthread
+[19.015s] -- Looking for pthread_create in pthread - found
+[19.027s] -- Found Threads: TRUE  
+[21.344s] -- Found diagnostic_msgs: 2.0.5 (/opt/ros/foxy/share/diagnostic_msgs/cmake)
+[21.824s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[22.179s] -- Found geographic_msgs: 1.0.4 (/opt/ros/foxy/share/geographic_msgs/cmake)
+[24.128s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[24.229s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[25.106s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[25.393s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[26.279s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[26.496s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[26.775s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[30.876s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[31.026s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[31.477s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[31.568s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[31.570s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[31.605s] -- Found GeographicLib: /usr/lib/aarch64-linux-gnu  
+[31.957s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[34.649s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[34.734s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[34.818s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[34.908s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[40.006s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[41.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[42.197s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[42.256s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[42.648s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[42.650s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[42.652s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[42.653s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[42.982s] -- Found PythonExtra: .so  
+[44.249s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[44.333s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[44.358s] CMake Error at CMakeLists.txt:77 (rosidl_get_typesupport_target):
+[44.359s]   Unknown CMake command "rosidl_get_typesupport_target".
+[44.361s] 
+[44.362s] 
+[44.436s] -- Configuring incomplete, errors occurred!
+[44.437s] See also "/home/ubuntu/ros2_delivFoxy/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[44.438s] See also "/home/ubuntu/ros2_delivFoxy/build/robot_localization/CMakeFiles/CMakeError.log".
+[44.529s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization

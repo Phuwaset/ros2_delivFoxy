@@ -1,0 +1,87 @@
+[0.248s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/serial
+[1.380s] -- The C compiler identification is GNU 9.4.0
+[2.163s] -- The CXX compiler identification is GNU 9.4.0
+[2.225s] -- Check for working C compiler: /usr/bin/cc
+[2.915s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.930s] -- Detecting C compiler ABI info
+[3.848s] -- Detecting C compiler ABI info - done
+[3.929s] -- Detecting C compile features
+[3.931s] -- Detecting C compile features - done
+[3.959s] -- Check for working CXX compiler: /usr/bin/c++
+[4.942s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.946s] -- Detecting CXX compiler ABI info
+[5.722s] -- Detecting CXX compiler ABI info - done
+[5.816s] -- Detecting CXX compile features
+[5.820s] -- Detecting CXX compile features - done
+[6.522s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.218s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.223s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.294s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.942s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[10.114s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[10.206s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.230s] -- Looking for pthread.h
+[11.396s] -- Looking for pthread.h - found
+[11.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.348s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[12.350s] -- Check if compiler accepts -pthread
+[13.131s] -- Check if compiler accepts -pthread - yes
+[13.147s] -- Found Threads: TRUE  
+[13.966s] -- Configuring done
+[14.122s] -- Generating done
+[14.156s] -- Build files have been written to: /home/ubuntu/ros2_delivFoxy/build/serial
+[14.189s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/serial
+[14.193s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial -- -j4 -l4
+[14.914s] [35m[1mScanning dependencies of target serial[0m
+[15.559s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[19.926s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[24.249s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[30.203s] [ 28%] [32m[1mLinking CXX static library libserial.a[0m
+[30.572s] [ 28%] Built target serial
+[30.693s] [35m[1mScanning dependencies of target gtest_main[0m
+[30.924s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[39.213s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[39.705s] [ 42%] Built target gtest_main
+[39.823s] [35m[1mScanning dependencies of target serial_example[0m
+[39.990s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[43.903s] [ 57%] [32m[1mLinking CXX executable serial_example[0m
+[44.706s] [ 57%] Built target serial_example
+[44.875s] [35m[1mScanning dependencies of target gtest[0m
+[45.252s] [ 64%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[71.210s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[73.062s] [ 71%] Built target gtest
+[73.313s] [35m[1mScanning dependencies of target serial-test-timer[0m
+[74.023s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[83.086s] [ 85%] [32m[1mLinking CXX executable serial-test-timer[0m
+[84.856s] [ 85%] Built target serial-test-timer
+[85.082s] [35m[1mScanning dependencies of target serial-test[0m
+[85.477s] [ 92%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[95.157s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[96.628s] [100%] Built target serial-test
+[96.781s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial -- -j4 -l4
+[97.840s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial
+[97.915s] -- Install configuration: ""
+[97.918s] -- Execute custom install script
+[97.922s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/lib/libserial.a
+[98.037s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/include/serial/serial.h
+[98.212s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/include/serial/v8stdint.h
+[98.299s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/library_path.sh
+[98.389s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/library_path.dsv
+[98.520s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[98.598s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[98.711s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/ament_prefix_path.sh
+[98.817s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/ament_prefix_path.dsv
+[98.935s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/path.sh
+[99.032s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/path.dsv
+[99.103s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.bash
+[99.228s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.sh
+[99.324s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.zsh
+[99.549s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.dsv
+[99.708s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.dsv
+[99.836s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/packages/serial
+[99.906s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[99.993s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[100.144s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/serialConfig.cmake
+[100.253s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/serialConfig-version.cmake
+[100.365s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.xml
+[100.478s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/control_ros2/install/ros2_control_test_nodes:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial

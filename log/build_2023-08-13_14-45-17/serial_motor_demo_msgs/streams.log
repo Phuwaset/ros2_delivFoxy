@@ -1,0 +1,124 @@
+[0.513s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs -- -j4 -l4
+[2.315s] [  2%] Built target serial_motor_demo_msgs__cpp
+[2.626s] [ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[3.398s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[3.515s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[3.533s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[3.887s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[4.227s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[4.876s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[5.321s] [ 76%] Built target serial_motor_demo_msgs
+[5.891s] [ 78%] Built target serial_motor_demo_msgs__py
+[6.384s] [ 87%] Built target serial_motor_demo_msgs__python
+[7.214s] [ 91%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c__pyext
+[7.441s] [ 95%] Built target serial_motor_demo_msgs__rosidl_typesupport_c__pyext
+[7.628s] [100%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.394s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs -- -j4 -l4
+[12.478s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs
+[12.684s] -- Install configuration: ""
+[12.695s] -- Execute custom install script
+[12.703s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/ament_index/resource_index/rosidl_interfaces/serial_motor_demo_msgs
+[12.719s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__functions.h
+[12.724s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.h
+[12.729s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.h
+[12.735s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__functions.h
+[12.742s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.h
+[12.751s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.h
+[12.753s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__functions.h
+[12.757s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.h
+[12.767s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.h
+[12.768s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.h
+[12.776s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.h
+[12.777s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.h
+[12.782s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_c__visibility_control.h
+[12.794s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.sh
+[12.796s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/library_path.dsv
+[12.812s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_c.h
+[12.819s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[12.826s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_c.h
+[12.834s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.848s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_c.so
+[12.877s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_fastrtps_cpp.hpp
+[12.884s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[12.909s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_fastrtps_cpp.hpp
+[12.918s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.927s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[12.941s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_c.h
+[12.945s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[12.950s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_c.h
+[12.954s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.966s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__builder.hpp
+[12.971s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__struct.hpp
+[12.975s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__traits.hpp
+[12.979s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__type_support.hpp
+[12.983s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__builder.hpp
+[12.986s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__struct.hpp
+[12.991s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__traits.hpp
+[12.996s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__type_support.hpp
+[12.999s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__builder.hpp
+[13.007s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__struct.hpp
+[13.011s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__traits.hpp
+[13.014s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__type_support.hpp
+[13.019s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/encoder_vals.hpp
+[13.027s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_command.hpp
+[13.032s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/motor_vels.hpp
+[13.039s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.055s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/encoder_vals__rosidl_typesupport_introspection_cpp.hpp
+[13.059s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[13.063s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/include/serial_motor_demo_msgs/msg/detail/motor_vels__rosidl_typesupport_introspection_cpp.hpp
+[13.067s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.sh
+[13.074s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/pythonpath.dsv
+[13.078s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/__init__.py
+[13.098s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/__init__.py
+[13.102s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_encoder_vals.py
+[13.113s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_command.py
+[13.122s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/msg/_motor_vels.py
+[13.141s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[13.150s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[13.168s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages/serial_motor_demo_msgs/serial_motor_demo_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[13.187s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__python.so
+[13.209s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.idl
+[13.215s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.idl
+[13.225s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.idl
+[13.235s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorCommand.msg
+[13.244s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/MotorVels.msg
+[13.254s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/msg/EncoderVals.msg
+[13.264s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/ament_index/resource_index/package_run_dependencies/serial_motor_demo_msgs
+[13.274s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/ament_index/resource_index/parent_prefix_path/serial_motor_demo_msgs
+[13.285s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.sh
+[13.294s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/ament_prefix_path.dsv
+[13.301s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.sh
+[13.312s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/environment/path.dsv
+[13.319s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.bash
+[13.327s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.sh
+[13.335s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.zsh
+[13.345s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/local_setup.dsv
+[13.350s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.dsv
+[13.570s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/ament_index/resource_index/packages/serial_motor_demo_msgs
+[13.594s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake-extras.cmake
+[13.606s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.608s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[13.609s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[13.618s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.631s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.644s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.663s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig.cmake
+[13.666s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgsConfig-version.cmake
+[13.670s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/package.xml
+[13.693s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_generator_c.so
+[13.701s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_c.so
+[13.719s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_c.so
+[13.744s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_introspection_cpp.so
+[13.761s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/libserial_motor_demo_msgs__rosidl_typesupport_cpp.so
+[14.988s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport.cmake
+[14.990s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.991s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.992s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.994s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport.cmake
+[14.996s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[15.007s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_generator_cppExport.cmake
+[15.017s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[15.021s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.057s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport.cmake
+[15.059s] -- Up-to-date: /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/share/serial_motor_demo_msgs/cmake/serial_motor_demo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[15.264s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo_msgs

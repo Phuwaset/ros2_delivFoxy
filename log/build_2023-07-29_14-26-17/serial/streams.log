@@ -1,0 +1,62 @@
+[1.462s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial -- -j4 -l4
+[2.360s] make: Warning: File 'Makefile' has modification time 1233 s in the future
+[2.623s] make[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 1233 s in the future
+[2.652s] make[2]: Warning: File 'CMakeFiles/serial.dir/progress.make' has modification time 1233 s in the future
+[2.664s] make[2]: Warning: File 'gtest/CMakeFiles/gtest.dir/progress.make' has modification time 1233 s in the future
+[2.670s] make[2]: Warning: File 'gtest/CMakeFiles/gtest_main.dir/progress.make' has modification time 1233 s in the future
+[2.783s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.808s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.810s] make[2]: Warning: File 'CMakeFiles/serial.dir/progress.make' has modification time 1233 s in the future
+[2.814s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.830s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.839s] make[2]: Warning: File 'gtest/CMakeFiles/gtest_main.dir/progress.make' has modification time 1232 s in the future
+[2.841s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[2.879s] make[2]: Warning: File 'gtest/CMakeFiles/gtest.dir/progress.make' has modification time 1232 s in the future
+[2.882s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.010s] [ 14%] Built target gtest_main
+[3.022s] [ 42%] Built target serial
+[3.051s] make[2]: Warning: File 'CMakeFiles/serial_example.dir/progress.make' has modification time 1232 s in the future
+[3.063s] [ 57%] Built target gtest
+[3.119s] make[2]: Warning: File 'tests/CMakeFiles/serial-test.dir/progress.make' has modification time 1232 s in the future
+[3.121s] make[2]: Warning: File 'tests/CMakeFiles/serial-test-timer.dir/progress.make' has modification time 1232 s in the future
+[3.175s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.251s] make[2]: Warning: File 'CMakeFiles/serial_example.dir/progress.make' has modification time 1232 s in the future
+[3.260s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.324s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.367s] make[2]: Warning: File 'tests/CMakeFiles/serial-test-timer.dir/progress.make' has modification time 1232 s in the future
+[3.377s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.398s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.415s] make[2]: Warning: File 'tests/CMakeFiles/serial-test.dir/progress.make' has modification time 1232 s in the future
+[3.418s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.482s] [ 71%] Built target serial_example
+[3.498s] [ 85%] Built target serial-test-timer
+[3.544s] [100%] Built target serial-test
+[3.550s] make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+[3.639s] make: warning:  Clock skew detected.  Your build may be incomplete.
+[3.644s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/serial -- -j4 -l4
+[4.081s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial
+[4.174s] -- Install configuration: ""
+[4.178s] -- Execute custom install script
+[4.184s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/lib/libserial.a
+[4.193s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/include/serial/serial.h
+[4.196s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/include/serial/v8stdint.h
+[4.216s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/library_path.sh
+[4.216s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/library_path.dsv
+[4.216s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.220s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.224s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.228s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.237s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/path.sh
+[4.238s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/environment/path.dsv
+[4.240s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.bash
+[4.243s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.sh
+[4.250s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.zsh
+[4.252s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/local_setup.dsv
+[4.271s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.dsv
+[4.318s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/ament_index/resource_index/packages/serial
+[4.322s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.325s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.354s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/serialConfig.cmake
+[4.357s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.358s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/serial/share/serial/package.xml
+[4.464s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/serial

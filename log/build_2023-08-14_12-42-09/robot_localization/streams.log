@@ -1,0 +1,23 @@
+[0.665s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization
+[0.876s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.879s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.173s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.447s] Traceback (most recent call last):
+[3.451s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[3.463s]     from ament_package.templates import get_environment_hook_template_path
+[3.485s] ModuleNotFoundError: No module named 'ament_package'
+[3.893s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[3.894s]   execute_process(/usr/bin/python3
+[3.898s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[3.900s]   /home/ubuntu/ros2_delivFoxy/build/robot_localization/ament_cmake_package_templates/templates.cmake)
+[3.901s]   returned error code 1
+[3.903s] Call Stack (most recent call first):
+[3.915s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[3.919s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[3.924s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[3.941s]   CMakeLists.txt:17 (find_package)
+[3.942s] 
+[3.944s] 
+[3.945s] -- Configuring incomplete, errors occurred!
+[3.947s] See also "/home/ubuntu/ros2_delivFoxy/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[3.962s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization

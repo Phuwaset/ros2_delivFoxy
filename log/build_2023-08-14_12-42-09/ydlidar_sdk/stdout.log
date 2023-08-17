@@ -1,0 +1,6 @@
+[ 60%] Built target ydlidar_sdk
+[ 68%] Built target lidar_c_api_test
+[ 76%] Built target etlidar_test
+[ 84%] Built target tof_test
+[ 92%] Built target ydlidar_test
+[100%] Built target lidar_test

@@ -1,0 +1,70 @@
+[0.437s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/articubot_one
+[0.814s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.350s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.623s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.961s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.015s] -- Added test 'lint_cmake' to check CMake code style
+[7.047s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.230s] -- Added test 'xmllint' to check XML markup files
+[7.283s] -- Configuring done
+[7.366s] -- Generating done
+[7.410s] -- Build files have been written to: /home/ubuntu/ros2_delivFoxy/build/articubot_one
+[7.454s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/articubot_one
+[7.472s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/articubot_one -- -j4 -l4
+[8.549s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/articubot_one -- -j4 -l4
+[9.152s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/articubot_one
+[9.289s] -- Install configuration: ""
+[9.293s] -- Execute custom install script
+[9.304s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[9.310s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[9.314s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[9.317s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/empty.yaml
+[9.322s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[9.327s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[9.330s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/joystick.yaml
+[9.334s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/main.rviz
+[9.337s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/map.rviz
+[9.342s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[9.346s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[9.349s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[9.353s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[9.357s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[9.363s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/camera.xacro
+[9.367s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[9.371s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/face.xacro
+[9.377s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[9.383s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[9.386s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/lidar.xacro
+[9.390s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[9.395s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[9.396s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[9.415s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[9.419s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[9.426s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[9.429s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[9.433s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[9.440s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[9.444s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[9.449s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[9.451s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[9.454s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[9.461s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/worlds/empty.world
+[9.463s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[9.471s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[9.483s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[9.487s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[9.491s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[9.496s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/environment/path.sh
+[9.500s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/environment/path.dsv
+[9.505s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/local_setup.bash
+[9.513s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/local_setup.sh
+[9.520s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/local_setup.zsh
+[9.527s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/local_setup.dsv
+[9.529s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.dsv
+[9.725s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[9.733s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[9.740s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[9.753s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/articubot_one/share/articubot_one/package.xml
+[9.804s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/articubot_one

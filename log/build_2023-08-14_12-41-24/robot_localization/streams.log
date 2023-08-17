@@ -1,0 +1,38 @@
+[0.408s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization
+[2.307s] -- The C compiler identification is GNU 9.4.0
+[4.106s] -- The CXX compiler identification is GNU 9.4.0
+[4.241s] -- Check for working C compiler: /usr/bin/cc
+[5.398s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.406s] -- Detecting C compiler ABI info
+[6.673s] -- Detecting C compiler ABI info - done
+[6.696s] -- Detecting C compile features
+[6.697s] -- Detecting C compile features - done
+[6.698s] -- Check for working CXX compiler: /usr/bin/c++
+[7.610s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.621s] -- Detecting CXX compiler ABI info
+[9.091s] -- Detecting CXX compiler ABI info - done
+[9.302s] -- Detecting CXX compile features
+[9.307s] -- Detecting CXX compile features - done
+[9.314s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[9.417s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[9.901s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.910s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.703s] Traceback (most recent call last):
+[11.706s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[11.709s]     from ament_package.templates import get_environment_hook_template_path
+[11.711s] ModuleNotFoundError: No module named 'ament_package'
+[11.902s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[11.903s]   execute_process(/usr/bin/python3
+[11.905s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[11.906s]   /home/ubuntu/ros2_delivFoxy/build/robot_localization/ament_cmake_package_templates/templates.cmake)
+[11.907s]   returned error code 1
+[11.908s] Call Stack (most recent call first):
+[11.909s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[11.910s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[11.911s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[11.912s]   CMakeLists.txt:17 (find_package)
+[11.915s] 
+[11.916s] 
+[11.918s] -- Configuring incomplete, errors occurred!
+[11.920s] See also "/home/ubuntu/ros2_delivFoxy/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[13.340s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/robot_localization

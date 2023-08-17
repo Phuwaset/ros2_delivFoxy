@@ -1,0 +1,11 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/home/ubuntu/ros2_delivFoxy/src/robot_localization:srv/FromLL.srv",
+    "/home/ubuntu/ros2_delivFoxy/src/robot_localization:srv/GetState.srv",
+    "/home/ubuntu/ros2_delivFoxy/src/robot_localization:srv/SetDatum.srv",
+    "/home/ubuntu/ros2_delivFoxy/src/robot_localization:srv/SetPose.srv",
+    "/home/ubuntu/ros2_delivFoxy/src/robot_localization:srv/ToggleFilterProcessing.srv",
+    "/home/ubuntu/ros2_delivFoxy/src/robot_localization:srv/ToLL.srv"
+  ]
+}

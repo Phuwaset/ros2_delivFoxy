@@ -1,0 +1,51 @@
+[1.000s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino
+[1.182s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.422s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.782s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.862s] -- Found serial: 1.2.1 (/home/ubuntu/ros2_delivFoxy/install/serial/share/serial/cmake)
+[2.894s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[3.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.183s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.722s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.579s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[9.074s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.086s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.763s] -- Configuring done
+[13.374s] -- Generating done
+[13.397s] -- Build files have been written to: /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino
+[13.450s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_delivFoxy/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino
+[13.455s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino -- -j4 -l4
+[14.013s] [ 42%] Built target fake_robot
+[14.263s] [100%] Built target diffdrive_arduino
+[15.205s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino -- -j4 -l4
+[15.429s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino
+[15.479s] -- Install configuration: ""
+[15.481s] -- Execute custom install script
+[15.485s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[15.487s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[15.489s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[15.492s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/lib/libfake_robot.so
+[15.495s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[15.497s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[15.498s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[15.501s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[15.502s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[15.504s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[15.507s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[15.509s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[15.511s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[15.513s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[15.515s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[15.517s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[15.519s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[15.521s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[15.523s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[15.524s] -- Symlinking: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[15.594s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[15.597s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[15.601s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[15.604s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.608s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[15.612s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[15.632s] -- Up-to-date symlink: /home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[15.635s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo:/home/ubuntu/dev_serial_motor/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_delivFoxy/build/diffdrive_arduino

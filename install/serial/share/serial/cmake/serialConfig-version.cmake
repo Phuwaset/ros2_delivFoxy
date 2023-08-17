@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_delivFoxy/build/serial/ament_cmake_core/serialConfig-version.cmake

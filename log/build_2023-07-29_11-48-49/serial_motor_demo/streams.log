@@ -1,0 +1,18 @@
+[3.976s] Invoking command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs PYTHONPATH=/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/prefix_override:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/build --no-deps install_data
+[5.430s] running develop
+[6.421s] running egg_info
+[6.423s] writing serial_motor_demo.egg-info/PKG-INFO
+[6.424s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[6.425s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[6.426s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[6.427s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[6.590s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.594s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[6.816s] running build_ext
+[6.817s] Creating /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[6.822s] Installing driver script to /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/serial_motor_demo
+[6.826s] Installing gui script to /home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/serial_motor_demo
+[6.827s] 
+[6.829s] Installed /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo
+[6.830s] running install_data
+[6.975s] Invoked command in '/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs:/home/ubuntu/ros2_delivFoxy/install/ydlidar_sdk:/home/ubuntu/ros2_delivFoxy/install/ydlidar_ros2_driver:/home/ubuntu/ros2_delivFoxy/install/slam_gmapping:/home/ubuntu/ros2_delivFoxy/install/diffdrive_arduino:/home/ubuntu/ros2_delivFoxy/install/serial:/home/ubuntu/ros2_delivFoxy/install/openslam_gmapping:/home/ubuntu/ros2_delivFoxy/install/articubot_one:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs PYTHONPATH=/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/prefix_override:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ubuntu/ros2_delivFoxy/build/serial_motor_demo:/home/ubuntu/ros2_delivFoxy/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo/lib/python3.8/site-packages:/home/ubuntu/dev_serial_motor/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/ros2_delivFoxy/build/serial_motor_demo/build --no-deps install_data
